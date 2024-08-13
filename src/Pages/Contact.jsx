@@ -37,43 +37,43 @@ const ContactPage = () => {
         }}>
           
         <div className='w-full h-[450px] bg-primary bg-opacity-20 backdrop-blur-[1px] bg-center bg-cover object-cover text-center pt-44'>
-        <h2 className='text-5xl font-bold text-white tracking-wider 'style={{ textShadow: "3px 3px 0px rgba(0,0,0,0.9)" }}>Contact Us</h2>
+        <h2 className='lg:text-5xl text-3xl font-bold text-white tracking-wider 'style={{ textShadow: "3px 3px 0px rgba(0,0,0,0.9)" }}>Contact Us</h2>
           </div>
         
      </div>
      <div className="py-20">
-      <h1 className="text-3xl font-semibold mb-6 text-center text-primary tracking-wider">Contact Us</h1>
+      <h1 className="lg:text-3xl text-xl font-semibold mb-6 text-center text-primary tracking-wider">Contact Us</h1>
 
       <div className="mb-8 flex flex-col justify-center items-center ">
-        <p className=" mb-4 text-center text-primary tracking-wider">
+        <p className="lg:text-base text-sm px-3 mb-4 text-center text-primary tracking-wider">
           We'd love to hear from you! Here’s how you can reach us:
         </p>
-        <div className=" grid grid-cols-1 lg:grid-cols-3 lg:py-10 gap-16 lg:px-20">
+        <div className=" grid grid-cols-1 lg:grid-cols-3 lg:py-10 gap-16 lg:px-20 py-3">
          
             
             <div className="flex flex-col justify-center items-center ">
-              <MdLocationPin className='text-5xl text-secondary text-center mb-5' />
-              <p className="text-primary font-medium text-center">Location<br/>Palani-624601</p>
+              <MdLocationPin className='lg:text-5xl text-3xl text-secondary text-center mb-5' />
+              <p className="text-primary text-sm font-medium text-center">Location<br/>Palani-624601</p>
             </div>
        
         
             
             <div className="flex flex-col justify-center items-center ">
-             <FaPhone className='text-5xl text-secondary  mb-5'/>
-              <p className="text-primary  font-medium text-center tracking-wider">Phone<br/>9871220968</p>
+             <FaPhone className='lg:text-5xl text-3xl text-secondary  mb-5'/>
+              <p className="text-primary text-sm font-medium text-center tracking-wider">Phone<br/>9871220968</p>
             </div>
           
             
             <div className="flex flex-col justify-center items-center ">
-              <IoMdMail className='text-5xl text-secondary text-center mb-5'/>
-              <p className="text-primary font-medium text-center tracking-wider">Email<br/>contact@company.com</p>
+              <IoMdMail className='lg:text-5xl text-3xl text-secondary text-center mb-5'/>
+              <p className="text-primary text-sm font-medium text-center tracking-wider">Email<br/>contact@company.com</p>
             </div>
          
         </div>
       </div>
 
       <div className="max-w-4xl h-auto mx-auto shadow-md shadow-primary border-2 py-10 px-10 rounded-lg border-primary ">
-        <h2 className="text-2xl font-semibold mb-4 text-primary text-center tracking-wider">Send Us a Message</h2>
+        <h2 className="lg:text-2xl  text-xl font-semibold mb-4 text-primary text-center tracking-wider">Send Us a Message</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-gray-700 text-sm font-medium mb-2 tracking-wider">Name</label>

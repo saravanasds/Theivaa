@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="relative flex flex-col lg:flex-row justify-center items-center overflow-x-auto">
       <div className="flex w-full lg:h-[10%] justify-between items-center bg-white shadow-md px-4 py-3 lg:px-20 lg:py-4 ">
         <h1 className="flex-shrink-0 font-sen text-[2rem] font-semibold pl-5">
-          <img src={sta} alt="Logo" className="h-auto w-[150px] lg:w-[200px]" />
+          <img src={sta} alt="Logo" className="h-auto w-[200px] lg:w-[200px]" />
         </h1>
         <div className="lg:hidden flex flex-col items-center px-10 overflow-x-auto">
           <button

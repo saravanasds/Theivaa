@@ -83,7 +83,7 @@ const Homecomponents = () => {
 
       <div className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[5rem]">
         <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]" data-aos="fade-up" duration="400">
-          <h2 className="lg:text-[2rem] text-lg font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
+          <h2 className="lg:text-[2rem] text-xl font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
             Welcome to Shree Theivaa Academy
           </h2>
           <p className="lg:text-base text-sm tracking-[0.05em] text-center text-primary leading-normal">
@@ -107,7 +107,7 @@ const Homecomponents = () => {
 
       {/* // HomeTeam Section Start  */}
           <div className="w-full h-auto mb-[0.75rem] py-10 ">
-          <div className=" container mx-auto h-screen bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center" style={{
+          <div className=" container mx-auto lg:h-[500px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center" style={{
             backgroundImage:`url(${Homedu})`,
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
