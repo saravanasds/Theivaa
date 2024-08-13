@@ -44,7 +44,7 @@ const Homecomponents = () => {
     },
     {
       icon: <GoBook/>,
-      heading: "Education Consultancy",
+      heading: " Consultancy",
       description:
         "We play crucial role in supporting educational institutions.",
     },
@@ -72,7 +72,7 @@ const Homecomponents = () => {
   ];
 
   return (
-    <div className="w-full h-auto">
+    <div className="w-full h-auto overflow-x-auto ">
       {/* // HomeHero Section Start  */}
 
       <HomeHero />
@@ -81,19 +81,19 @@ const Homecomponents = () => {
 
       {/* // HomeService Section Start */}
 
-      <div className="container mx-auto flex  flex-col justify-center items-center pt-[2rem] pb-[5rem]">
-        <div className="text-center py-[3rem] w-[50%]" data-aos="fade-up" duration="400">
-          <h2 className="text-[2rem] font-bold tracking-[0.05em] leading-[1.625em] mb-3 text-primary">
-            Welcome to the Theivaa Academy
+      <div className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[5rem]">
+        <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]" data-aos="fade-up" duration="400">
+          <h2 className="lg:text-[2rem] text-lg font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
+            Welcome to Shree Theivaa Academy
           </h2>
-          <p className="text-md  tracking-[0.05em] text-center text-primary ">
+          <p className="lg:text-base text-sm tracking-[0.05em] text-center text-primary leading-normal">
           At Shree Theivaa Academy, we are dedicated to empowering learners of all ages with the knowledge and skills they need to succeed.
           </p>
         </div>
-        <div className="grid grid-cols-1 px-10  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
+        <div className="grid grid-cols-1 px-10 lg:px-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
           {Home.map((service, index) => (
             <HomeServices
-            className="flex justify-center items-center"
+            className="flex justify-center items-center "
               key={index}
               icon={service.icon}
               heading={service.heading}
@@ -133,7 +133,7 @@ const Homecomponents = () => {
 
     
 
-      <div className="w-full h-auto bg-primary text-white font-semibold text-3xl  text-center tracking-wider px-20  py-20">
+      <div className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8">
         <h2 className="tracking-wider">"An investment in <span className="text-secondary">knowledge</span> pays the best interest."</h2>
       </div>
 

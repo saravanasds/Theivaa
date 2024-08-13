@@ -48,17 +48,17 @@ const Homebenefits = () => {
 
   return (
     <>
-      <div className=" mx-auto flex flex-col justify-center items-center bg-[rgba(248,248,248)]  px-20  gap-5 py-10 pb-20">
-            <h2 className="lg:text-5xl text-3xl font-bold text-primary border-b-2 border-secondary pt-10 pb-5">Thinks You Get </h2>
-        <div className="w-full h-auto grid grid-cols-1 lg:px-10  md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10 ">
+      <div className="mx-auto flex flex-col justify-center items-center bg-[rgba(248,248,248)]  lg:px-20 px-8 gap-5 py-10 pb-20">
+            <h2 className="lg:text-5xl text-3xl font-bold text-primary border-b-2 border-secondary pt-10 pb-3 text-center">Thinks You Get </h2>
+        <div className="w-full min-h-[250px] grid grid-cols-1 lg:px-10  md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10 ">
           {Benefits.map((ben, index) => (
             <div
               key={index}
-              className="flex flex-col  justify-center items-center text-center border-2 border-primary  rounded-xl py-8 px-10 bg-white text-gray-700 shadow-lg hover:scale-[1.1] hover:shadow-xl transform transition-all duration-300"
+              className="flex flex-col  justify-center items-center text-center border-2 border-primary  rounded-xl lg:py-8 lg:px-10 py-7 px-5 bg-white text-gray-700 shadow-lg hover:scale-[1.1] hover:shadow-xl transform transition-all duration-300"
             >
-              <h1 className="text-5xl  text-secondary mb-5">{ben.icon}</h1>
-              <h1 className="text-2xl font-bold mb-4 tracking-wider text-primary">{ben.heading}</h1>
-              <h1 className="text-medium tracking-wider">{ben.description}</h1>
+              <h1 className="lg:text-5xl text-3xl  text-secondary mb-5">{ben.icon}</h1>
+              <h1 className="lg:text-2xl text-xl font-bold mb-4 tracking-wider text-primary">{ben.heading}</h1>
+              <h1 className="lg:text-base text-sm  text-gray-500 tracking-wider leading-normal">{ben.description}</h1>
             </div>
           ))}
         </div>

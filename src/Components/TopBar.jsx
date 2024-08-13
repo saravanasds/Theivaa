@@ -7,24 +7,24 @@ const TopBar = () => {
   return (
     <>
             
-            <div class="w-full h-auto flex justify-center items-center">
-        <div class="w-full bg-primary text-white font-medium py-2 text-lg tracking-wider">
-            <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+            <div class="w-full h-auto flex  justify-center items-center">
+        <div class="w-full bg-primary text-white font-medium lg:py-3 py-2 px-5  text-lg tracking-wider">
+            <div class="w-full flex  lg:flex-row justify-center items-center gap-5">
              
-                <div class="w-full lg:w-1/2 flex lg:flex-row justify-center items-center gap-5 mb-3 lg:mb-0">
+                <div class="w-full lg:w-1/2 flex lg:flex-row justify-center items-center gap-5  ">
                     <small class="flex justify-center items-center gap-2 text-secondary">
-                        <MdLocationPin className='text-lg' />
-                        <a href="#" class="text-white">123 Street, New York</a>
+                        <MdLocationPin className='lg:text-lg hidden lg:block' />
+                        <a href="#" class="text-white text-sm hidden lg:text-base lg:block">123 Street, New York</a>
                     </small>
                     <small class="flex justify-center items-center gap-2 text-secondary">
-                        <FaPhone/>
-                        <a href="#" class="text-white tracking-[0.05em]">9876543110</a>
+                        <FaPhone className='lg:text-lg '/>
+                        <a href="#" class="text-white tracking-[0.05em] lg:text-base text-xs">9876543110</a>
                     </small>
                 </div>
                
                 <div class="w-full lg:w-1/2 flex lg:flex-row justify-center items-center gap-2 text-secondary text-center">
-                      <IoMdMail />
-                    <a href="#" class="text-white tracking-[0.05em] text-[1rem]">Email@Example.com</a>
+                      <IoMdMail className='lg:text-lg text-sm'/>
+                    <a href="#" class="text-white tracking-[0.05em] lg:text-base text-xs">Email@Example.com</a>
                   
                 </div>
             </div>

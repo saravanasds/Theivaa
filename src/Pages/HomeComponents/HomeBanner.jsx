@@ -14,7 +14,7 @@ const HomeBanner = () => {
   return (
     <>
       <div
-        className="w-full h-[600px]"
+        className="w-full lg:h-[600px] "
         style={{
           backgroundImage: `url(${building})`,
           backgroundPosition: "center",
@@ -22,9 +22,9 @@ const HomeBanner = () => {
           backgroundAttachment:"fixed"
         }}
       >
-        <div className="w-full h-[600px] text-center flex flex-col justify-center lg:items-end items-center  bg-[rgba(0,136,144,0.7)] lg:pr-16 pr-0">
+        <div className="w-full lg:h-[600px] text-center flex flex-col justify-center lg:items-end items-center  bg-[rgba(0,136,144,0.7)] lg:pr-16  py-8 px-3">
            
-        <h2 className="lg:w-[60%] w-full text-secondary font-bold lg:text-6xl md:text-5xl text-4xl tracking-wider mb-8 leading-tight  flex gap-5 md:px-10"><TiTick className="lg:text-5xl border-4 border-secondary mt-2 w-[20%] h-[50%] ml-5 rounded-full  hidden lg:block" />Take the right step, do the big things.</h2>
+        <h2 className="lg:w-[60%] w-full text-secondary font-bold lg:text-6xl md:text-5xl text-3xl px-3 lg:px-0 tracking-wider mb-8  flex gap-5 md:px-10 leading-normal"><TiTick className="lg:text-5xl border-4 border-secondary mt-2 w-[20%] h-[50%] ml-5 rounded-full  hidden lg:block" />Take the right step, do the big things.</h2>
         
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4  gap-5 text-center">
            
@@ -33,8 +33,8 @@ const HomeBanner = () => {
                 key={index}
                 className="flex flex-col justify-center items-center text-white py-5 "
               >
-                <h2 className="text-5xl mb-3 font-bold tracking-wider">{count.heading}</h2>
-                <h2 className="text-xl tracking-wider font-semibold">{count.para}</h2>
+                <h2 className="lg:text-5xl  text-2xl mb-3 font-bold tracking-wider">{count.heading}</h2>
+                <h2 className="lg:text-xl text-sm tracking-wider font-semibold">{count.para}</h2>
               </div>
             ))}
           </div>

@@ -8,7 +8,7 @@ import bg2 from '../assets/HomeImages/bg2.jpeg'
 const About = () => {
   return (
     <div className=' w-full h-auto'>
-      <div className='w-full h-[450px] bg-center bg-cover object-cover' style={{
+      <div className='w-full h-[450px] bg-center bg-cover object-cover hidden lg:block' style={{
           backgroundImage: `url(${bg2})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -24,7 +24,7 @@ const About = () => {
      <AboutOverview/>
      <AboutOffers/>
      
-     <div className="w-full h-auto bg-gray-200 text-primary font-semibold text-3xl  text-center tracking-wider px-20 mb-20 py-20">
+     <div className="w-full h-auto bg-gray-200 text-primary font-semibold lg:text-3xl  text-center tracking-wider lg:px-20 mb-20 lg:py-20 px-10 py-10">
         
         <h2 className="tracking-wider">"An investment in<span className="text-secondary">knowledge</span> pays the best interest."</h2>
         

@@ -10,7 +10,7 @@ const HomeHero = () => {
   return (
     <>
       <div
-        className="w-full min-h-[80vh] hidden lg:block"
+        className="lg:w-full min-h-[80vh] hidden lg:block"
         style={{
           backgroundImage: `url(${bg1})`,
           backgroundPosition: "center",
@@ -18,7 +18,7 @@ const HomeHero = () => {
           
         }}
       >
-        <div className="flex flex-col lg:w-[60%]  w-full h-[70vh] justify-center items-start lg:px-24">
+        <div className="flex flex-col lg:w-[60%]  w-full h-[70vh] justify-center lg:items-start items-center lg:px-24 ">
           <h2
             className="lg:text-7xl text-3xl text-primary font-bold tracking-wider lg:mb-4 typing-effect"
             data-aos="fade-up"
@@ -27,7 +27,7 @@ const HomeHero = () => {
           >
             Growth Partners
           </h2>
-          <p className="lg:text-xl text-md text-primary font-semibold tracking-wider mb-8 typing-effect text-center">
+          <p className="lg:text-xl text-sm text-primary font-semibold tracking-wider lg:mb-8 typing-effect text-center">
             Gain access to specialized knowledge that can help accelerate
             growth.
           </p>

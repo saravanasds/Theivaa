@@ -11,55 +11,55 @@ const AboutOffers = () => {
   const offers = [
     {
       icon: <MdEmojiObjects />,
-      heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis",
+      heading: "Certified Teacher",
+      description: "Our team of experienced and certified educators is dedicated to providing high-quality instruction and personalized support.",
     },
     {
       icon: <LiaChalkboardTeacherSolid />,
-      heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis.",
+      heading: "Creative Lessons",
+      description: "We believe that learning should be both effective and enjoyable.",
     },
     {
       icon: <FaLaptop />,
       heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis",
+      description: "Our curriculum is thoughtfully structured to cover essential topics efficiently.",
     },
     {
       icon: <TbFileCertificate />,
-      heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis",
+      heading: "Regular Classess",
+      description: "For those who prefer a traditional classroom setting, we offer regular in-person classes. ",
     },
     {
       icon: <SiKnowledgebase />,
-      heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis",
+      heading: "Knowledge Improvement",
+      description: " By focusing on core concepts and practical applications.",
     },
     {
       icon: <VscSymbolClass />,
-      heading: "Faster Performance",
-      description: "We develop a systematic well-ordered process of analysis",
+      heading: "Online Class",
+      description: "Enjoy the flexibility and convenience of learning from anywhere with our online classes.",
     },
   ];
   return (
     <>
-      <div className="container mx-auto w-full h-auto py-20">
-        <h2 className="text-3xl lg:text-4xl font-bold text-primary text-center border-b-2 border-secondary pb-5">What we Offer</h2>
+      <div className="container mx-auto w-full h-auto lg:py-20 py-10">
+        <h2 className="text-2xl lg:text-4xl font-bold text-primary text-center border-b-2 border-secondary lg:pb-5 pb-3">What we Offer</h2>
 
         <div className="flex flex-col lg:flex-row gap-5 order-2 lg:order-1">
           <div className="lg:w-[50%] w-full  h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10  py-10">
             {offers.map((offers, index) => (
               <div
                 key={index}
-                className="flex justify-center items-center w-full text-center py-3  text-gray-700 shadow-lg hover:shadow-xl transform transition-all gap-5 lg:px-5 md:px-5 px-5 border-2 border-white hover:border-2 hover:border-primary rounded-xl"
+                className="flex flex-col lg:flex-row justify-center items-center w-full text-center py-3  text-gray-700 shadow-lg hover:shadow-xl transform transition-all gap-5 lg:px-5 md:px-5 px-5 border-2 border-white hover:border-2 hover:border-primary rounded-xl"
               >
-                <h1 className="text-5xl text-secondary mb-5 flex">
+                <h1 className="lg:text-5xl text-4xl text-secondary mb-5 flex">
                   {offers.icon}
                 </h1>
                 <div>
-                  <h1 className="text-xl font-bold mb-4 tracking-wider text-primary">
+                  <h1 className="lg:text-xl text-lg font-bold mb-4 tracking-wider text-primary">
                     {offers.heading}
                   </h1>
-                  <h1 className="text-medium tracking-wider">
+                  <h1 className="lg:text-base text-sm tracking-wider">
                     {offers.description}
                   </h1>
                 </div>
