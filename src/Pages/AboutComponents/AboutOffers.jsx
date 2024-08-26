@@ -42,11 +42,15 @@ const AboutOffers = () => {
   ];
   return (
     <>
-      <div className="container mx-auto w-full h-auto lg:py-20 py-10">
+      <div className="container mx-auto w-full h-auto lg:pb-20 py-10"data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300">
         <h2 className="text-2xl lg:text-4xl font-bold text-primary text-center border-b-2 border-secondary lg:pb-5 pb-3">What we Offer</h2>
 
         <div className="flex flex-col lg:flex-row gap-5 order-2 lg:order-1">
-          <div className="lg:w-[50%] w-full  h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10  py-10">
+          <div className="lg:w-[50%] w-full  h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10  py-10"data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="300">
             {offers.map((offers, index) => (
               <div
                 key={index}
@@ -67,7 +71,9 @@ const AboutOffers = () => {
             ))}
           </div>
 
-          <div className="lg:w-[50%] w-full h-auto p-10 order-1 lg:order-2">
+          <div className="lg:w-[50%] w-full h-auto p-10 order-1 lg:order-2"data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="300">
             <img src={Homedu} alt="" className="w-full h-auto object-cover" />
           </div>
         </div>

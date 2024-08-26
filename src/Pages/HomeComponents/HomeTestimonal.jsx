@@ -51,26 +51,30 @@ const HomeTestimonial = () => {
   ];
 
   return (
-    <div className="  w-full flex flex-col justify-center items-center py-20 text-center  bg-[rgba(248,248,248)] gap-10 px-10">
-        <h2 className="lg:text-5xl text-3xl font-bold text-primary border-b-2 border-secondary  pb-3">Testimonial</h2>
-      <div className="w-full h-full lg:w-[80%] lg:h-auto gap-5 rounded-xl">
+    <div className="  w-full flex flex-col justify-center items-center py-20 text-center  bg-[#fcf7f7] gap-10 px-10">
+        <h2 className="lg:text-5xl text-3xl font-bold  text-primary border-b-2 border-secondary  pb-3">Testimonial</h2>
+      <div className="w-full h-full lg:w-[80%] lg:h-auto gap-5 rounded-xl cursor-pointer"
+      data-aos="fade-right" 
+    data-aos-duration="800" 
+    data-aos-delay="200" 
+    data-aos-easing="ease-in-out">
         <Slider {...settings}>
           {testimonials.map((image, index) => (
             <div
               key={index}
-              className=" rounded-xl bg-[rgba(0,136,144,0.7)] border-2 border-white flex justify-center items-center max-w-[350px] h-auto lg:py-14 lg:px-10 py-8 px-3 gap-8 "
+              className=" rounded-xl border-2 border-primary flex justify-center items-center max-w-[350px] h-auto lg:py-14 lg:px-10 py-8 px-3 gap-10"
             >
             <div  className="flex justify-center items-center lg:mb-5">
             <img
                 src={image.img}
                 // alt={`Image ${index + 1}`}
-                className="lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] object-cover rounded-full mb-5 border-2 p-2 border-white hover:scale-[1.2] transfrom transition-all"
+                className="lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] object-cover rounded-full mb-5 border-2 p-2 border-primary hover:scale-[1.2] transfrom transition-all"
               />
             </div>
              
               <div>
-              <h2 className="lg:text-2xl text-xl font-bold text-white tracking-wider mb-3">{image.h}</h2>
-              <h2 className="lg:text-base text-sm text-white tracking-wider leading-noraml">{image.p}</h2>
+              <h2 className="lg:text-2xl text-xl font-bold text-primary  tracking-wider mb-3">{image.h}</h2>
+              <h2 className="lg:text-base text-sm text-primary  tracking-wider leading-noraml">{image.p}</h2>
               </div>
               
             </div>

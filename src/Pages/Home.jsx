@@ -32,7 +32,7 @@ const Homecomponents = () => {
       ),
       heading: "TIA",
       description:
-        "Calculate every possible risk in your business, take control over them.",
+        "We focus on the initial stages of talent discovery and development",
     },
     {
       icon: (
@@ -44,10 +44,17 @@ const Homecomponents = () => {
     },
     {
       icon: <GoBook/>,
-      heading: " Consultancy",
+      heading: "AISECT",
       description:
         "We play crucial role in supporting educational institutions.",
     },
+    {
+      icon: <GoBook/>,
+      heading: "Consultancy",
+      description:
+        "We play crucial role in supporting educational institutions.",
+    },
+   
   ];
 
   const Team = [
@@ -81,8 +88,11 @@ const Homecomponents = () => {
 
       {/* // HomeService Section Start */}
 
-      <div className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[5rem]">
-        <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]" data-aos="fade-up" duration="400">
+      <div className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[1rem] "data-aos="fade-up" 
+  data-aos-duration="800" 
+  data-aos-delay="300" 
+  data-aos-easing="ease-in-out">
+        <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]" >
           <h2 className="lg:text-[2rem] text-xl font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
             Welcome to Shree Theivaa Academy
           </h2>
@@ -107,7 +117,7 @@ const Homecomponents = () => {
 
       {/* // HomeTeam Section Start  */}
           <div className="w-full h-auto mb-[0.75rem] py-10 ">
-          <div className=" container mx-auto lg:h-[500px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center" style={{
+          <div className=" container mx-auto lg:h-[450px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center" style={{
             backgroundImage:`url(${Homedu})`,
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
@@ -117,7 +127,10 @@ const Homecomponents = () => {
       
           </div>
       
-      <div className="container mx-auto  grid grid-cols-1  lg:px-10 md:grid-cols-2 lg:grid-cols-3 text-center gap-8 mb-20 px-10">
+      <div className="container mx-auto  grid grid-cols-1  lg:px-10 md:grid-cols-2 lg:grid-cols-3 text-center gap-8 mb-20 px-10" 
+         data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="300">
         {Team.map((teams, index) => (
           <HomeTeam
           className="flex justify-center items-center"
@@ -133,13 +146,12 @@ const Homecomponents = () => {
 
     
 
-      <div className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8">
+      <div className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8"data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300">
         <h2 className="tracking-wider">"An investment in <span className="text-secondary">knowledge</span> pays the best interest."</h2>
       </div>
-
-    
-
-      <Homebenefits />
+      <Homebenefits/>
       <HomeBanner/>
       <HomeTestimonal/>
 

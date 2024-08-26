@@ -49,12 +49,17 @@ const Homebenefits = () => {
   return (
     <>
       <div className="mx-auto flex flex-col justify-center items-center bg-[rgba(248,248,248)]  lg:px-20 px-8 gap-5 py-10 pb-20">
-            <h2 className="lg:text-5xl text-3xl font-bold text-primary border-b-2 border-secondary pt-10 pb-3 text-center">Thinks You Get </h2>
+            <h2 className="lg:text-5xl text-3xl font-bold text-primary border-b-2 border-secondary pt-10 pb-3 text-center"data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300">Thinks You Get </h2>
         <div className="w-full min-h-[250px] grid grid-cols-1 lg:px-10  md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10 ">
           {Benefits.map((ben, index) => (
             <div
               key={index}
               className="flex flex-col  justify-center items-center text-center border-2 border-primary  rounded-xl lg:py-8 lg:px-10 py-7 px-5 bg-white text-gray-700 shadow-lg hover:scale-[1.1] hover:shadow-xl transform transition-all duration-300"
+              data-aos="fade-down"
+          data-aos-duration="800"
+          data-aos-delay="300"
             >
               <h1 className="lg:text-5xl text-3xl  text-secondary mb-5">{ben.icon}</h1>
               <h1 className="lg:text-2xl text-xl font-bold mb-4 tracking-wider text-primary">{ben.heading}</h1>
