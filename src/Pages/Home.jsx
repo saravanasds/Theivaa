@@ -100,7 +100,7 @@ const Homecomponents = () => {
           At Shree Theivaa Academy, we are dedicated to empowering learners of all ages with the knowledge and skills they need to succeed.
           </p>
         </div>
-        <div className="grid grid-cols-1 px-10 lg:px-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
+        <div className="grid grid-cols-1 px-10 lg:px-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
           {Home.map((service, index) => (
             <HomeServices
             className="flex justify-center items-center "
