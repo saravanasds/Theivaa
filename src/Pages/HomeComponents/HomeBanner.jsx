@@ -28,7 +28,7 @@ const HomeBanner = () => {
   data-aos-duration="800" 
   data-aos-delay="300" 
   data-aos-easing="ease-in-out">
-          <h2 className="lg:w-full w-full text-white font-bold lg:text-6xl md:text-5xl text-2xl px-3 lg:px-0 tracking-wider mb-8  flex gap-5 md:px-10 leading-normal "style={{textShadow:"0px 2px 4px rgba(0,0,0,0.7)"}}>
+          <h2 className="lg:w-full w-full text-white font-bold lg:text-6xl md:text-5xl text-2xl px-3 lg:px-0 tracking-wider lg:mb-8 mb-2  flex gap-5 md:px-10 leading-normal "style={{textShadow:"0px 2px 4px rgba(0,0,0,0.7)"}}>
             <TiTick className="lg:text-5xl md:text-center border-4 border-secondary mt-2 w-[20%] h-[50%] ml-5 rounded-full  hidden lg:block" />
             Our Trusted Partners 
           </h2>
@@ -40,7 +40,7 @@ const HomeBanner = () => {
                 key={index}
                 className="flex flex-col justify-center lg:items-end text-white lg:py-5 lg:px-10"
               >
-                <h2 className="lg:text-3xl  text-xl mb-3 font-bold tracking-wider text-secondary "style={{textShadow:"0px 2px 1px rgba(255,255,255,0.7)"}}>
+                <h2 className="lg:text-3xl  text-xl mb-3 font-bold tracking-wider text-darkred "style={{textShadow:"0px 2px 1px rgba(255,255,255,0.7)"}}>
                   {count.heading}
                 </h2>
                 {/* <h2 className="lg:text-xl text-sm tracking-wider font-semibold">{count.para}</h2> */}

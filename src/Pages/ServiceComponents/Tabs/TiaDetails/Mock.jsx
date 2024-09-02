@@ -23,12 +23,12 @@ const mock = () => {
   ];
   return (
     <>
-      <div className="border-b-2 border-primary py-10 px-10">
+      <div className="border-b-2 border-primary py-10 lg:px-10 px-5">
         <div className="flex justify-center items-center pb-10 "data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
           <p className="lg:w-1/2 px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-            Tia Mock hopes you're having a great day as you explore our website.
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MOCK</span>  hopes you're having a great day as you explore our website.
             We're excited to make a positive impact on everyone who joins our
             family today.
           </p>
@@ -39,7 +39,7 @@ const mock = () => {
             <div key={index} className=""data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">
-              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                 {mock1.title}
               </h2>
               <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-5">
@@ -48,13 +48,14 @@ const mock = () => {
             </div>
           ))}
         </div>
-       <div className=" lg:w-1/2 flex lg:flex-col gap-5">
-         <img src={mock1} alt="" className=' lg:w-full lg:h-auto lg:p-3 'data-aos="fade-right"
+       <div className=" lg:w-1/2 flex lg:flex-col gap-10">
+         <img src={mock1} alt="" className=' lg:w-full lg:h-auto  shadow-lg rounded-2xl'data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"/>
-         <img src={mock2} alt="" className=' lg:full lg:h-auto  lg:p-3 data-aos="fade-right"
+         <img src={mock2} alt="" className="lg:full lg:h-auto shadow-lg  rounded-2xl"
+          data-aos="fade-right"
             data-aos-duration="800"
-            data-aos-delay="200"'/>
+            data-aos-delay="200"/>
        </div>
         </div>
       </div>

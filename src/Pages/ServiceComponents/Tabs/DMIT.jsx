@@ -16,7 +16,6 @@ const DMIT = () => {
       h: "DMIT for Children",
       h1: "Age group 3 to 10 years",
       p: "Know your child Inborn Talent. Identify best learning style for your child. Select Activities based upon their innate potential. Identify your child Multiple Intelligence. Improve relationship between parents and children.",
-      
     },
     {
       img: student,
@@ -44,13 +43,18 @@ const DMIT = () => {
         >
           <div className="w-full lg:h-[450px] h-[300px] bg-primary bg-opacity-10 backdrop-blur-[1px] text-center pt-44"></div>
         </div>
-
         {/* // DMIT */}
+        <h2 className="lg:text-3xl text-xl text-center font-bold text-darkred">
+          Dermatoglyphics Multiple Intelligence Test (DMIT)
+        </h2>
 
-        <div className="flex flex-col lg:flex-row lg:px-10">
-          <div className="lg:w-1/2 h-auto flex flex-col justify-center items-center lg:p-5 px-5 text-center"data-aos="fade-right"
-          data-aos-duration="800"
-          data-aos-delay="300">
+        <div className="w-full h-82 flex flex-col lg:flex-row lg:px-10">
+          <div
+            className="lg:w-1/2 h-auto flex flex-col justify-center items-center lg:p-5 px-5 text-center"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <h2 className="lg:text-3xl text-xl font-semibold text-primary text-center mb-5">
               What is DMIT ?
             </h2>
@@ -65,22 +69,29 @@ const DMIT = () => {
               Know your Strength and weakness by DMIT Test Report based on
               Dermatoglyphics and brain analysis.{" "}
             </p>
-            <button className="lg:px-10 lg:py-2 px-5 py-1 lg:text-base text-sm bg-primary tracking-wider text-white font-medium rounded-lg hover:scale-[1.1] transform transition-all">
-              Read More
+            <button className="lg:px-10 lg:py-2 mt-5 px-5 py-1 lg:text-base text-sm bg-primary tracking-wider text-white font-medium rounded-lg hover:scale-[1.1] transform transition-all hover:bg-red">
+              <a href="https://dmitlab.in/">Read More</a>
             </button>
           </div>
-          <img src={anim} alt="" className="lg:w-1/2 lg:min-h-[400px] lg:p-16 md:px-10 md:py-10 px-5 py-5" data-aos="fade-left"
-          data-aos-duration="800"
-          data-aos-delay="300"/>
+          <img
+            src={anim}
+            alt=""
+            className="lg:w-1/2 lg:h-82 lg:p-16 md:px-10 md:py-10 px-5 py-5 "
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          />
         </div>
 
         {/* //DMIT catagory */}
-
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-auto gap-5 text-center py-20"data-aos="fade-up"
+        <div
+          className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-auto gap-5 text-center pt-10 pb-20"
+          data-aos="fade-up"
           data-aos-duration="800"
-          data-aos-delay="300">
+          data-aos-delay="300"
+        >
           {data.map((d) => (
-            <div className="w-full h-auto  tracking-wider lg:pt-5 pb-10 lg:px-3 px-8  flex flex-col justify-center items-center">
+            <div className="w-full h-auto  tracking-wider lg:pt-5 pb-10 lg:px-3 px-8  flex flex-col justify-center items-center  hover:shadow-2xl lg:shadow-lg lg:border-2 rounded-lg hover:border-darkred">
               <div className="h-[60%]">
                 {" "}
                 <img
@@ -109,14 +120,20 @@ const DMIT = () => {
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="flex lg:flex-row flex-col lg:w-full lg:px-10 lg:py-10 gap-10 px-8 py-5">
-          <p className="lg:w-1/2 h-auto "data-aos="fade-right"
-          data-aos-duration="800"
-          data-aos-delay="300">
-           <div className="text-center"> <b className=" lg:text-2xl text-primary text-center tracking-wider ">
-              Fingerprints and Brain Connection
-            </b></div>
-            <p className="lg:text-base text-sm tracking-wider lg:mt-6 mt-3">
+        <div className="flex lg:flex-row flex-col lg:w-full lg:px-10 lg:py-10 gap-10 px-8 py-5 ">
+          <p
+            className="lg:w-1/2 h-auto "
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <div className="flex lg:flex-col lg:justify-start justify-center">
+              {" "}
+              <b className=" lg:text-2xl text-primary tracking-wider">
+                Fingerprints and Brain Connection
+              </b>
+            </div>
+            <p className="lg:text-base text-sm tracking-wider  text-gray-700 lg:mt-6 mt-3">
               Fingerprints truly are closely associated with the infant’s mind
               development. Fingerprints are usually developed during the 13th to
               19th week of an embryo. Fingerprints start to develop inside the
@@ -124,15 +141,37 @@ const DMIT = () => {
               research papers have got elaborated with link between fingerprint
               patterns and Human Brain lobes.
             </p>
+            <div className="lg:py-5 pt-5">
+              <h2 className="lg:text-2xl text-lg font-bold text-primary mb-5 tracking-wider ">
+                Theory of Multiple Intelligence Test
+              </h2>
+              <ul className="lg:text-base text-sm pl-5 text-gray-700 tracking-wider list-disc">
+                <li>Logical Intelligence (Reasoning Smart)</li>
+                <li>Linguistic Intelligence (Word Smart)</li>
+                <li>Musical Intelligence (Musical Smart)</li>
+                <li>Naturalist Intelligence (Nature Smart)</li>
+                <li>Existential Intelligence (Phil Smart)</li>
+                <li>Intrapersonal Intelligence (Self Smart)</li>
+                <li>Bodily-Kinesthetic Intelligence (Body Smart)</li>
+                <li>Interpersonal Intelligence (People Smart)</li>
+                <li>Spatial Intelligence (Picture Smart)</li>
+              </ul>
+            </div>
           </p>
-          <p className="lg:w-1/2 h-auto tracking-wider  lg:leading-loose"data-aos="fade-left"
-          data-aos-duration="800"
-          data-aos-delay="300">
-           <div className="text-center"> <b className="lg:text-2xl text-lg text-primary tracking-wider">
-              Fingerprints and Brain Lobes
-            </b></div>
-            <div className="lg:mt-5 mt-2 text-sm lg:text-base">
-              <div className="flex justify-start items-center gap-3 p-2">
+          <p
+            className="lg:w-1/2 h-auto tracking-wider lg:leading-loose"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <div className="text-center">
+              {" "}
+              <b className="lg:text-2xl text-lg text-primary tracking-wider">
+                Fingerprints and Brain Lobes
+              </b>
+            </div>
+            <div className="lg:mt-5 mt-2 text-sm lg:text-base  text-gray-700">
+              <div className="flex justify-start items-center gap-3 p-2 ">
                 <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
                 <span>
                   Brain Lobes can be analyzed depending on formation and amount
@@ -177,10 +216,14 @@ const DMIT = () => {
             </div>
           </p>
         </div>
-        <div className="flex justify-center items-center py-10"data-aos="fade-up"
+        <div></div>
+        <div
+          className="flex justify-center items-center py-10"
+          data-aos="fade-up"
           data-aos-duration="800"
-          data-aos-delay="300">
-          <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+          data-aos-delay="300"
+        >
+          <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
             <a href="/services" className="flex gap-3">
               <FaArrowLeft className="mt-1" />
               Go Back

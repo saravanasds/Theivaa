@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="relative flex flex-col lg:flex-row justify-center items-center overflow-x-auto">
-      <div className="flex w-full lg:h-[10%] justify-between items-center bg-white shadow-md px-4 py-3 lg:px-20 lg:py-4 ">
+      <div className="flex w-full  justify-between items-center bg-white shadow-md px-4 py-3 lg:px-20 ">
         <h1 className="flex-shrink-0 font-sen text-[2rem] font-semibold pl-5">
           <img src={sta} alt="Logo" className="h-auto w-[200px] lg:w-[200px]" />
         </h1>
@@ -32,7 +32,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "block py-1 text-primary border-b-2 border-primary text-[1.25rem]"
-                : "block py-1 text-primary"
+                : "block py-1 text-primary hover:border-primary hover:border-b-2"
             }
           >
             Home
@@ -43,7 +43,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "block py-1 text-primary border-b-2 border-primary text-[1.25rem]"
-                : "block py-1 text-primary"
+                : "block py-1 text-primary hover:border-primary hover:border-b-2"
             }
           >
             About
@@ -53,7 +53,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "block py-1 text-primary border-b-2 border-primary text-[1.25rem]"
-                : "block py-1 text-primary"
+                : "block py-1 text-primary hover:border-primary hover:border-b-2"
             }
           >
             Services
@@ -63,7 +63,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "block py-1 text-primary border-b-2 border-primary text-[1.25rem]"
-                : "block py-1 text-primary"
+                : "block py-1 text-primary hover:border-primary hover:border-b-2"
             }
           >
             Contact

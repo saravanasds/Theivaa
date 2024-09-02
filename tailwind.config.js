@@ -15,6 +15,8 @@ export default {
        
       red:'#F87171',
 
+      darkred:"#E02454"
+
       // primary: '#004445',
      
       // secondary: '#f8b400',

@@ -46,12 +46,12 @@ const TIA = () => {
       </div>
 
       <div className="flex justify-center items-center py-10">
-        <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
-          <a href="/services" className="flex gap-3">
-            <FaArrowLeft className="mt-1" />
-            Go Back
-          </a>
-        </button>
+         <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+            <a href="/services" className="flex gap-3">
+              <FaArrowLeft className="mt-1" />
+              Go Back
+            </a>
+          </button>
       </div>
     </div>
   );

@@ -43,12 +43,12 @@ const Media = () => {
 
   return (
     <>
-      <div className="border-b-2 border-primary py-10 px-10">
+      <div className="border-b-2 border-primary py-10 lg:px-10 px-5">
         <div className="flex justify-center items-center pb-10 "data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
           <p className="lg:w-1/2 px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-            TIA MEDIAS provides hands-on training for a career in film. Learn
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MEDIAS</span> provides hands-on training for a career in film. Learn
             filmmaking through practical experience in writing, lighting,
             camerawork, editing, and directing, guided by industry experts. We
             offer courses for all levels, from master artists to hobbyists, with
@@ -62,7 +62,7 @@ const Media = () => {
           <div className="text-center pb-10"data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
-            <h2 className="lg:text-2xl text-xl font-semibold text-primary mb-2">
+            <h2 className="lg:text-2xl text-xl font-semibold text-darkred mb-2">
               HOW TO BECOME A FILM MAKER
             </h2>
             <p className="lg:text-lg text-sm  text-gray-600 mb-2">
@@ -80,7 +80,7 @@ const Media = () => {
                   <h2 className="lg:text-2xl font-semibold text-primary mb-5">
                     {Flim1.h2}
                   </h2>
-                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                     {Flim1.title}
                   </h2>
                   <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">
@@ -90,7 +90,7 @@ const Media = () => {
               ))}
             </div>
             <div className=" lg:w-1/2 flex flex-col  justify-end items-center gap-5">
-              <img src={flim} alt="" className="lg:w-full lg:h-80  p-3 " data-aos="fade-left"
+              <img src={flim} alt="" className="lg:w-full lg:h-80  shadow-lg rounded-2xl" data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="200"/>
 
@@ -98,7 +98,7 @@ const Media = () => {
                 <div key={index} className=""data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="200">
-                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                     {ad1.title}
                   </h2>
                   <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">

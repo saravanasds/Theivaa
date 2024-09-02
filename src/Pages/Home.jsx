@@ -8,9 +8,6 @@ import Homebenefits from "./HomeComponents/Homebenefits";
 import HomeBanner from "./HomeComponents/HomeBanner";
 import HomeTestimonal from "./HomeComponents/HomeTestimonal";
 
-
-
-
 import { GoBook } from "react-icons/go";
 import { PiStudent } from "react-icons/pi";
 import { PiChalkboardTeacher } from "react-icons/pi";
@@ -19,42 +16,40 @@ import { IoMdFingerPrint } from "react-icons/io";
 const Homecomponents = () => {
   const Home = [
     {
-      icon: (
-        <IoMdFingerPrint />
-      ),
+      icon: <IoMdFingerPrint />,
       heading: "DMIT",
+      link:"/DMIT",
       description:
         "(DMIT) is a helps in understanding an individuals potential and personality",
     },
     {
-      icon: (
-        <PiChalkboardTeacher />
-      ),
+      icon: <PiChalkboardTeacher />,
       heading: "TIA",
+      link:"/TIA",
       description:
         "We focus on the initial stages of talent discovery and development",
     },
     {
-      icon: (
-        <PiStudent  />
-      ),
+      icon: <PiStudent />,
       heading: "I Gen",
+      link:"/IGEN",
       description:
         "Know the market before taking any step, reduce risks before you go.",
     },
     {
-      icon: <GoBook/>,
+      icon: <GoBook />,
       heading: "AISECT",
+      link:"/AISECT",
       description:
         "We play crucial role in supporting educational institutions.",
     },
     {
-      icon: <GoBook/>,
+      icon: <GoBook />,
       heading: "Consultancy",
+      link:"/Consultancy",
       description:
         "We play crucial role in supporting educational institutions.",
     },
-   
   ];
 
   const Team = [
@@ -88,27 +83,32 @@ const Homecomponents = () => {
 
       {/* // HomeService Section Start */}
 
-      <div className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[1rem] "data-aos="fade-up" 
-  data-aos-duration="800" 
-  data-aos-delay="300" 
-  data-aos-easing="ease-in-out">
-        <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]" >
+      <div
+        className="container mx-auto flex  flex-col justify-center items-center lg:pt-[2rem] pb-[1rem] "
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]">
           <h2 className="lg:text-[2rem] text-xl font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
             Welcome to Shree Theivaa Academy
           </h2>
           <p className="lg:text-base text-sm tracking-[0.05em] text-center text-primary leading-normal">
-          At Shree Theivaa Academy, we are dedicated to empowering learners of all ages with the knowledge and skills they need to succeed.
+            At Shree Theivaa Academy, we are dedicated to empowering learners of
+            all ages with the knowledge and skills they need to succeed.
           </p>
         </div>
         <div className="grid grid-cols-1 px-10 lg:px-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
           {Home.map((service, index) => (
-            <HomeServices
-            className="flex justify-center items-center "
+            <a href={service.link}><HomeServices
+              
+              className="flex justify-center items-center "
               key={index}
               icon={service.icon}
               heading={service.heading}
               description={service.description}
-            />
+            /></a>
           ))}
         </div>
       </div>
@@ -116,24 +116,26 @@ const Homecomponents = () => {
       {/* // HomeService Section End */}
 
       {/* // HomeTeam Section Start  */}
-          <div className="w-full h-auto mb-[0.75rem] py-10 ">
-          <div className=" container mx-auto lg:h-[450px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center" style={{
-            backgroundImage:`url(${Homedu})`,
+      <div className="w-full h-auto mb-[0.75rem] py-10 ">
+        <div
+          className=" container mx-auto lg:h-[450px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center"
+          style={{
+            backgroundImage: `url(${Homedu})`,
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
-          }}>
-            {/* <div className="bg-primary  text-primary p-4 bg-opacity-20 rounded-xl backdrop-blur-lg">"An investment in knowledge pays the best interest."</div> */}
+          }}
+        ></div>
       </div>
-      
-          </div>
-      
-      <div className="container mx-auto  grid grid-cols-1  lg:px-10 md:grid-cols-2 lg:grid-cols-3 text-center gap-8 mb-20 px-10" 
-         data-aos="fade-left"
-          data-aos-duration="800"
-          data-aos-delay="300">
+
+      <div
+        className="container mx-auto grid grid-cols-1  lg:px-10 md:grid-cols-2 lg:grid-cols-3 text-center gap-8 mb-20 px-10"
+        data-aos="fade-left"
+        data-aos-duration="800"
+        data-aos-delay="300"
+      >
         {Team.map((teams, index) => (
           <HomeTeam
-          className="flex justify-center items-center"
+            className="flex justify-center items-center"
             key={index}
             icon={teams.icon}
             heading={teams.heading}
@@ -144,20 +146,20 @@ const Homecomponents = () => {
 
       {/* // HomeTeam Section Start  */}
 
-    
-
-      <div className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8"data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="300">
-        <h2 className="tracking-wider">"An investment in <span className="text-secondary">knowledge</span> pays the best interest."</h2>
+      <div
+        className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="300"
+      >
+        <h2 className="tracking-wider">
+          "An investment in <span className="text-secondary">knowledge</span>{" "}
+          pays the best interest."
+        </h2>
       </div>
-      <Homebenefits/>
-      <HomeBanner/>
-      <HomeTestimonal/>
-
-     
-
-
+      <Homebenefits />
+      <HomeBanner />
+      <HomeTestimonal />
     </div>
   );
 };

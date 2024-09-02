@@ -62,7 +62,7 @@ const Homebenefits = () => {
           data-aos-delay="300"
             >
               <h1 className="lg:text-5xl text-3xl  text-secondary mb-5">{ben.icon}</h1>
-              <h1 className="lg:text-2xl text-xl font-bold mb-4 tracking-wider text-primary">{ben.heading}</h1>
+              <h1 className="lg:text-2xl text-xl font-bold mb-4 tracking-wider text-darkred">{ben.heading}</h1>
               <h1 className="lg:text-base text-sm  text-gray-500 tracking-wider leading-normal">{ben.description}</h1>
             </div>
           ))}

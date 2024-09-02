@@ -19,10 +19,10 @@ const TiaHead = () => {
   return (
     <>
       {/* Navigation */}
-      <nav className="w-full h-auto py-5 bg-primary shadow-lg sticky top-0">
+      <nav className="w-full h-auto py-3 bg-primary shadow-lg ">
         <div className="container mx-auto flex justify-between items-center px-6">
           {/* Logo */}
-          <div className="text-red text-2xl font-bold">
+          <div className="text-white text-2xl font-bold">
             <span>TIA</span>
           </div>
             
@@ -47,11 +47,8 @@ const TiaHead = () => {
                   setIsMenuOpen(false);
                    // Close the menu when an item is clicked (mobile)
                 }}
-                className={`text-lg font-semibold py-2 px-4 rounded-lg transform transition-transform duration-300 ease-in-out 
-                  ${activeId === item.id ? 'bg-yellow-500 text-gray-900' : 'text-white hover:bg-yellow-500 hover:text-gray-900'}`}
-                  data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-delay="200"
+                className={`text-base tracking-wider gap-5 px-3 py-1 font-sen transform transition-transform duration-300 ease-in-out 
+                  ${activeId === item.id ? 'text-white bg-red border-2 border-transparent rounded-lg' : 'hover:border-b-2 hover:border-red  text-white'}`}
               >
                 <a href={item.id}>{item.text}</a>
               </li>

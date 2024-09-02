@@ -33,18 +33,18 @@ const Edge = () => {
             data-aos-duration="800"
             data-aos-delay="200">
           <p className="lg:w-1/2 px-10 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-            TIA-Edge helps students achieve their dreams by providing training
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-EDGE</span> helps students achieve their dreams by providing training
             for competitive exams like NEET, IIT-JEE, NTSE, and Olympiads. Our
             expert team offers top-quality education using specialized training
             methods to enhance students' skills and help them reach their goals.
           </p>
         </div>
-        <div className=" w-full flex lg:flex-row flex-col justify-around items-center px-10 gap-5">
+        <div className=" w-full flex lg:flex-row flex-col justify-around items-center lg:px-10 px-5 gap-5">
           {courseDetails.map((courseDetail, index) => (
             <div key={index} className=""data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="3200">
-              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                 {courseDetail.title}
               </h2>
               <ul className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc pl-5"data-aos="fade-right"

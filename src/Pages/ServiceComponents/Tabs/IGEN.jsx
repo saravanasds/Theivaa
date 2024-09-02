@@ -207,10 +207,12 @@ const IGEN = () => {
             data-aos-duration="800"
             data-aos-delay="200"
           />
+          
         </div>
+        <div className="w-full text-center"><button className="text-center px-8 lg:px-14 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300"><a href="https://igeninnovation.com/">View More about IGEN</a></button></div>
 
         <div className="flex justify-center items-center lg:py-10 pb-5">
-          <button className=" lg:px-6 lg:py-2 px-3 py-1 bg-primary text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+        <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
             <a href="/services" className="flex gap-3">
               <FaArrowLeft className="mt-1" />
               Go Back

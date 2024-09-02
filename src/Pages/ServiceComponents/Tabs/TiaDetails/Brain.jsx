@@ -84,18 +84,35 @@ const TiaDetails = () => {
   return (
     <div className="border-b-2 border-primary ">
       <div
-        className="w-full h-[300px] bg-opacity-10 blur-[1px] hidden lg:block"
-        style={{
-          backgroundImage: `url(${herotia})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></div>
-      <div className="flex justify-center items-center py-10"data-aos="fade-up"
+  className="relative w-full h-[300px] hidden lg:block"
+  style={{
+    backgroundImage: `url(${herotia})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+  }}
+>
+  {/* Background with blur effect */}
+  <div
+    className="absolute inset-0 z-1 bg-opacity-10 blur-[1px]"
+    style={{
+      backgroundImage: `url(${herotia})`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+    }}
+  />
+  
+  {/* Text without blur effect */}
+  <div className="absolute inset-0 flex items-center justify-start pl-10 z-2 text-white font-semibold lg:text-3xl text-lg uppercase"style={{
+    textShadow:"0px 2px 2px rgba(0,0,0,0.7)"
+  }}>
+    Talent Initiators and Talent Accelerators
+  </div>
+</div>
+      <div className="flex justify-center items-center py-10 "data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300">
         <p className="lg:w-1/2 h-auto text-center lg:text-lg text-sm text-primary tracking-wider px-10">
-          TIA-BRAIN is a brain training program designed to unlock the hidden
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-BRAIN</span> is a brain training program designed to unlock the hidden
           talents of children. Unlike traditional education, which often focuses
           on just one side of the brain, TIA-BRAIN helps kids develop both sides
           equally. Using advanced techniques and technology, we aim to enhance
@@ -107,7 +124,7 @@ const TiaDetails = () => {
       <div className="w-full h-auto flex flex-col md:flex-row pb-10">
         {/* Brain Fitness Content */}
 
-        <div className="w-full md:w-1/2 px-10">
+        <div className="w-full md:w-1/2 lg:px-10 px-5">
           <h2 className="lg:text-3xl text-2xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
           data-aos-duration="800"
           data-aos-delay="300">
@@ -117,7 +134,7 @@ const TiaDetails = () => {
             <div key={index} className="mb-8"data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="300">
-              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                 {section.title}
               </h2>
               <p className="lg:text-base text-sm tracking-wider text-gray-700">
@@ -126,7 +143,7 @@ const TiaDetails = () => {
             </div>
           ))}
           <div>
-            <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3"data-aos="fade-right"
+            <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3"data-aos="fade-right"
           data-aos-duration="800"
           data-aos-delay="300">
               Requirements
@@ -143,12 +160,12 @@ const TiaDetails = () => {
           data-aos-duration="800"
           data-aos-delay="300">
             {" "}
-            <img src={brain2} alt="" className="w-full lg:h-72 h-52 mt-5" />
+            <img src={brain2} alt="" className="w-full lg:h-72 h-52 mt-5 shadow-lg rounded-2xl" />
           </div>
         </div>
 
         {/* Brain Waves Content */}
-        <div className="w-full md:w-1/2 px-10">
+        <div className="w-full md:w-1/2 lg:px-10 px-5">
           <h2 className="lg:text-3xl text-2xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">
@@ -158,7 +175,7 @@ const TiaDetails = () => {
             <div key={index} className="mb-8"data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">
-              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-red mb-3">
+              <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                 {wave.title}
               </h2>
               <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">

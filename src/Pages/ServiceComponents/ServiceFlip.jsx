@@ -15,7 +15,7 @@ const Flip = ({ frontContent, backContent, backContent2,backgroundImage,backgrou
         <div className="flip-card-back text-primary text-center lg:px-5 px-5 lg:text-2xl text-lg font-semibold flex flex-col items-center justify-center rounded-md"style={{backgroundImage:`url(${backgroundImageback})`}}>
           {backContent}
           <div className='lg:text-base text-sm mt-5 mb-5'>{backContent2}</div>
-         <div className='lg:text-base text-sm font-semibold border-2 rounded-md lg:px-10 lg:py-2 px-5 py-1 bg-primary text-white tracking-wider cursor-pointer'><a href={link}>{button}</a></div>
+         <div className='lg:text-base text-sm font-semibold border-2 rounded-md lg:px-10 lg:py-2 px-5 py-1 bg-primary hover:bg-darkred transform transition-all text-white tracking-wider cursor-pointer'><a href={link}>{button}</a></div>
          
         </div>
       </div>
