@@ -15,7 +15,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 const TIA = () => {
   return (
     <div className="w-full h-auto ">
-      <div className="sticky top-24">
+      <div className="sticky top-24 z-20">
       <TiaHead/>
       </div>
       

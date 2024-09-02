@@ -41,7 +41,7 @@ const Consultancy = () => {
     <>
       <div className="w-full h-auto">
         <div
-          className="w-full lg:h-[400px] h-[300px] "
+          className="w-full lg:h-[400px] h-[300px]"
           style={{
             backgroundImage: `url(${hand})`,
             backgroundPositions: "center",
@@ -80,7 +80,7 @@ const Consultancy = () => {
           </div>
           <div className="lg:px-20 lg:py-10 px-5 py-5">
           
-              <h2 className="text-2xl font-bold text-primary mb-8 text-center tracking-wider">Our Expert Services</h2>
+              <h2 className="lg:text-2xl text-xl font-bold text-primary mb-8 text-center tracking-wider">Our Expert Services</h2>
               <div className="w-full p-3 mb-5 grid lg:grid-cols-2 gap-10">
                 {Consultancy2.map((consult1, index) => (
                   <div className=" border-2 shadow-xl text-center py-5 rounded-lg hover:border-2 hover:border-darkred hover:scale-[1.1] transform transition-all duration-500">
