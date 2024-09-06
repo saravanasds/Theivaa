@@ -1,5 +1,5 @@
 import React from "react";
-import girl from "../../assets/HomeImages/girl3.jpg";
+import ceo from "../../assets/HomeImages/ceo.jpeg";
 
 const AboutCEO = () => {
   return (
@@ -10,7 +10,7 @@ const AboutCEO = () => {
           data-aos-duration="800"
           data-aos-delay="300">
             <img
-              src={girl}
+              src={ceo}
               alt=""
               className="w-full lg:h-[500px] h-[250px] rounded-xl shadow-lg"
             />

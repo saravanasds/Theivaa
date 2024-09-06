@@ -1,6 +1,6 @@
 import React from "react";
 import hand from "../../../assets/HomeImages/handshake.jpeg";
-
+import consult2 from "../../../assets/HomeImages/consult2.jpeg";
 import { FaArrowLeft } from "react-icons/fa6";
 
 const Consultancy = () => {
@@ -43,8 +43,8 @@ const Consultancy = () => {
         <div
           className="w-full lg:h-[400px] h-[300px]"
           style={{
-            backgroundImage: `url(${hand})`,
-            backgroundPositions: "center",
+            backgroundImage: `url(${consult2})`,
+            backgroundPositions: "bottom",
             backgroundSize: "cover",
           }}
         >
