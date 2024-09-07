@@ -13,6 +13,8 @@ import IGEN from "./Pages/ServiceComponents/Tabs/IGEN"
 import AISEC from "./Pages/ServiceComponents/Tabs/AISEC"
 import Consultancy from "./Pages/ServiceComponents/Tabs/Consultancy"
 import Esevai from "./Pages/ServiceComponents/Tabs/Esevai"
+import CWEECE from "./Pages/ServiceComponents/Tabs/CWEECE"
+import JEENEET from "./Pages/ServiceComponents/Tabs/JEENEET"
 
 
 import 'aos/dist/aos.css';
@@ -39,12 +41,18 @@ const App = () => {
             <Route path="/" element={<Home/>}/>
               <Route path="about" element={<About />} />
               <Route path="services" element={<Services/>} />
+
+              {/*  */}
               <Route path="DMIT" element={<DMIT/>} />
               <Route path="TIA" element={<TIA/>} />
               <Route path="IGEN" element={<IGEN />} />
               <Route path="AISEC" element={<AISEC/>} />
               <Route path="Consultancy" element={<Consultancy/>} />
               <Route path="Esevai" element={<Esevai/>} />
+              <Route path="CWEECE" element={<CWEECE/>}/>
+              <Route path="JEENEET" element={<JEENEET/>}/>
+
+              {/*  */}
               <Route path="contact" element={<Contact />} />
             </Route>
           </Routes>

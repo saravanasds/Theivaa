@@ -12,6 +12,10 @@ import { GoBook } from "react-icons/go";
 import { PiStudent } from "react-icons/pi";
 import { PiChalkboardTeacher } from "react-icons/pi";
 import { IoMdFingerPrint } from "react-icons/io";
+import { CgGirl } from "react-icons/cg";
+import { VscOrganization } from "react-icons/vsc";
+import { FaGear } from "react-icons/fa6";
+
 
 const Homecomponents = () => {
   const Home = [
@@ -39,17 +43,32 @@ const Homecomponents = () => {
     {
       icon: <GoBook />,
       heading: "AISECT",
-      link:"/AISECT",
+      link:"/AISEC",
       description:
         "We play crucial role in supporting educational institutions.",
     },
+    // 
     {
-      icon: <GoBook />,
+      icon: <CgGirl />,
+      heading: "CWEECE",
+      link:"/CWEECE",
+      description:
+        "Empowering and Protecting Women and Child care.",
+    },
+    {
+      icon: <FaGear />,
+      heading: "JEE & Neet",
+      link:"/JEENEET",
+      description:
+        "Coaching Centre with excellent medical and Supervision.",
+    },
+    {
+      icon: <VscOrganization />,
       heading: "Consultancy",
       link:"/Consultancy",
       description:
         "We play crucial role in supporting educational institutions.",
-    },
+    }
   ];
 
   const Team = [
@@ -99,10 +118,11 @@ const Homecomponents = () => {
             all ages with the knowledge and skills they need to succeed.
           </p>
         </div>
+
         <div className="grid grid-cols-1 px-10 lg:px-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-8">
           {Home.map((service, index) => (
-            <a href={service.link}><HomeServices
-              
+            <a href={service.link}>
+              <HomeServices              
               className="flex justify-center items-center "
               key={index}
               icon={service.icon}

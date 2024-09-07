@@ -30,6 +30,7 @@ const DMIT = () => {
       p: "Find the right Employee for the right job. Pre-Employments Screening. Know your employee Personal potentials IQ-AQ-EQ-SQ-CQ. Discover Leadership, Planning and execution Qualities.",
     },
   ];
+  
   return (
     <>
       <div className="w-full h-auto ">
