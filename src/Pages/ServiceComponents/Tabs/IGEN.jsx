@@ -83,8 +83,8 @@ const IGEN = () => {
               className="lg:w-1/2 h-auto flex flex-col justify-center items-center bg-white bg-opacity-20 backdrop-blur-[1px] text-center lg:px-3 lg:py-16 px-3 py-10 shadow-lg rounded-lg "
               style={{ backgroundAttachment: "fixed" }}
               data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+              data-aos-duration="800"
+              data-aos-delay="200"
             >
               <h2 className="lg:text-3xl text-xl font-semibold lg:mb-5 mb-3 text-primary tracking-wider">
                 IGEN
@@ -113,16 +113,16 @@ const IGEN = () => {
                 key={index}
                 className="bg-white p-5 rounded-lg shadow-md hover:scale-[1.1] duration-500 transform transition-all"
                 data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+                data-aos-duration="800"
+                data-aos-delay="200"
               >
                 <img
                   src={item.imgSrc}
                   alt={item.title}
                   className="w-full lg:h-56 h-44 object-cover rounded-t-lg mb-4 "
                   data-aos="fade-down"
-            data-aos-duration="800"
-            data-aos-delay="200"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
                 />
                 <h2 className="lg:text-xl text-lg font-bold text-primary mb-2 tracking-wider">
                   {item.title}
@@ -137,10 +137,12 @@ const IGEN = () => {
         </div>
 
         <div className="w-full h-auto flex lg:flex-row flex-col justify-center items-center pt-10 lg:pb-10">
-          <div className="lg:w-1/2 h-auto px-10"
-          data-aos="fade-right"
+          <div
+            className="lg:w-1/2 h-auto px-10"
+            data-aos="fade-right"
             data-aos-duration="800"
-            data-aos-delay="200">
+            data-aos-delay="200"
+          >
             <h2 className="text-center text-primary lg:text-2xl text-xl font-bold tracking-wider mb-5">
               Unlock Your Child’s Potential with Our Exciting Classes!
             </h2>
@@ -207,12 +209,15 @@ const IGEN = () => {
             data-aos-duration="800"
             data-aos-delay="200"
           />
-          
         </div>
-        <div className="w-full text-center"><button className="text-center px-8 lg:px-14 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300"><a href="https://igeninnovation.com/">View More about IGEN</a></button></div>
+        <div className="w-full text-center">
+          <button className="text-center px-8 lg:px-14 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300">
+            <a href="https://igeninnovation.com/">View More about IGEN</a>
+          </button>
+        </div>
 
         <div className="flex justify-center items-center lg:py-10 pb-5">
-        <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+          <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
             <a href="/services" className="flex gap-3">
               <FaArrowLeft className="mt-1" />
               Go Back

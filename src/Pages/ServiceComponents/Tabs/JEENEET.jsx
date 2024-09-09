@@ -1,72 +1,82 @@
 import React from 'react';
 
+import { FaArrowLeft } from "react-icons/fa6";
+
+
 function JEENEET() {
   return (
     <div className="container mx-auto p-6">
       {/* Page Title */}
-      <h1 className="text-4xl font-bold text-center mb-10">JEE & NEET Courses 2024-25</h1>
+      <h1 className="lg:text-4xl  text-xl font-bold text-center mb-10 uppercase text-darkred">JEE & NEET Courses</h1>
 
       {/* Course Information Section */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Offline Classroom Courses</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 border rounded-lg shadow">
-            <h3 className="text-xl font-bold mb-2">JEE-Main</h3>
-            <p className="text-gray-600 mb-2">Course Fee: ₹1,995,630</p>
-            <p className="text-gray-600">This course is designed to prepare students for JEE Main examination, covering all topics comprehensively.</p>
+      <section className="mb-10 ">
+        <h2 className="lg:text-2xl text-xl font-bold mb-5 tracking-wider text-primary">Offline Classroom Courses  </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+          <div className="p-6 border-pink-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-pink-500 text-white">
+            <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main</h2>
+            <p className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">This course thoroughly prepares students for the JEE Main exam with comprehensive coverage of all topics, expert instruction, regular assessments, and personalized feedback. It includes practice with previous papers, interactive tools, and flexible, self-paced learning.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
-            <h3 className="text-xl font-bold mb-2">JEE-Main + Advanced</h3>
-            <p className="text-gray-600 mb-2">Course Fee: ₹3,774,299</p>
-            <p className="text-gray-600">An integrated course that prepares students for both JEE Main and Advanced exams, providing in-depth knowledge.</p>
+          <div className="p-6 border-orange-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-orange-500 text-white">
+            <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main + Advanced</h2>
+            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">An integrated course for JEE Main and Advanced offers comprehensive topic coverage, expert instruction, advanced problem-solving, tailored strategies, regular assessments, and flexible, self-paced learning.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
-            <h3 className="text-xl font-bold mb-2">NEET-UG</h3>
-            <p className="text-gray-600 mb-2">Course Fee: ₹499,870</p>
-            <p className="text-gray-600">Designed for students aiming for NEET-UG, this course focuses on all subjects needed for medical entrance exams.</p>
+          <div className="p-6 border-blue-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-blue-500 text-white">
+            <h2 className="lg:text-xl text-lg font-bold mb-2 ">NEET-UG</h2>
+            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-smtracking-wider">
+            DDesigned for NEET-UG, this course covers all key subjects with expert instruction, practice questions, mock tests, and personalized feedback. It includes interactive resources and flexible, self-paced learning options.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
-            <h3 className="text-xl font-bold mb-2">Pre-Foundation (8th to 10th)</h3>
-            <p className="text-gray-600">Prepares younger students for JEE and NEET by building a strong foundation in science and mathematics.</p>
+          <div className="p-6 border-gray-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-gray-500 text-white">
+            <h2 className="lg:text-xl text-lg font-bold mb-2v ">Pre-Foundation (8th to 10th)</h2>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">This course prepares younger students for JEE and NEET by establishing a solid foundation in science and mathematics. It focuses on essential concepts, provides interactive learning materials, and builds problem-solving skills to set students up for future success in these competitive exams.</p>
           </div>
         </div>
       </section>
 
       {/* Live Online Courses Section */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Live Online Courses</h2>
+
+      <section className="lg:mb-20 mb-10 lg:pt-16">
+        <h2 className="text-2xl font-bold mb-5 tracking-wider text-primary lg:mb-5">Live Online Courses  </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 border rounded-lg shadow">
-            <h3 className="text-xl font-bold mb-2">JEE-Main (Online)</h3>
-            <p className="text-gray-600">Available for live online learning with expert guidance and flexibility.</p>
+          <div className="p-6 border-yellow-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-yellow-500 text-white ">
+            <h3 className="text-xl font-bold mb-2 ">JEE-Main (Online)</h3>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">Available for live online learning, this course offers expert guidance and flexibility, allowing students to interact in real-time, receive personalized support, and adapt their study schedule to fit their needs. It includes access to recorded sessions, interactive tools, and ongoing assessments to track progress and ensure a comprehensive learning experience.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
+          <div className="p-6 border-violet-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl  bg-violet-500  text-white">
             <h3 className="text-xl font-bold mb-2">JEE-Main + Advanced (Online)</h3>
-            <p className="text-gray-600 mb-2">Course Fee: ₹4,228,730</p>
-            <p className="text-gray-600">A live online course for students preparing for both JEE Main and Advanced with comprehensive resources.</p>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">
+            A live online course for JEE Main and Advanced includes real-time expert interaction, personalized guidance, and comprehensive resources. It features extensive study materials, practice tests, mock exams, and flexible scheduling with access to recorded classes for additional support.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
+          <div className="p-6 border-pink-900 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-darkred text-white">
             <h3 className="text-xl font-bold mb-2">NEET-UG (Online)</h3>
-            <p className="text-gray-600 mb-2">Course Fee: ₹1,587,561</p>
-            <p className="text-gray-600">Online NEET-UG course with interactive sessions and real-time problem solving.</p>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">The online NEET-UG course features interactive sessions and real-time problem-solving with expert instructors. It provides extensive study materials, practice questions, and mock tests. Students receive personalized feedback and support, and the course offers flexible scheduling and access to recorded classes for additional review and convenience.</p>
           </div>
 
-          <div className="p-6 border rounded-lg shadow">
+          <div className="p-6 border-green-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-green-500 text-white">
             <h3 className="text-xl font-bold mb-2">Pre-Foundation (6th to 10th)</h3>
-            <p className="text-gray-600">Live online classes for younger students building a strong foundation for JEE/NEET preparation.</p>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
+            <p className="lg:text-base text-sm tracking-wider">
+            Live online classes for younger students build a strong JEE/NEET foundation with interactive lessons, expert guidance, engaging materials, and flexible scheduling. The program includes real-time feedback, practice sessions, and recorded classes for additional review.</p>
           </div>
         </div>
       </section>
 
       {/* Gurcharanam Advantages */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Why Choose Gurcharanam Academy?</h2>
-        <ul className="list-disc ml-6 mt-4">
+      <section className="lg:mb-10 mb-8 text-center tracking-wider">
+        <h2 className="lg:text-2xl text-xl font-semibold mb-5 text-darkred">Why Choose Shree Theivaa Academy?</h2>
+        <ul className="lg:text-base text-sm text-gray-700 ml-6 mt-4 ">
           <li>Comprehensive Study Material with rich content to cover all subjects.</li>
           <li>Highly Qualified Faculty with decades of experience in teaching.</li>
           <li>Use of Advanced Technologies to provide quality education both offline and online.</li>
@@ -75,12 +85,20 @@ function JEENEET() {
       </section>
 
       {/* Footer Section */}
-      <footer className="text-center py-4 mt-10 border-t">
-        <p>© 2021 GURCHARANAM ACADEMY PRIVATE LIMITED, Kota (Rajasthan)</p>
-        <p>
-          CIN: U74999RJ2016PTC056403 | E-Mail: info@gurcharanamacademy.in | Helpline: +91 9588907110
-        </p>
-      </footer>
+      <div className="w-full text-center">
+          <button className="text-center px-8 lg:px-14 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300">
+            <a href="https://gurcharanamacademy.in/">View More</a>
+          </button>
+        </div>
+
+        <div className="flex justify-center items-center  pb-5">
+          <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+            <a href="/services" className="flex gap-3">
+              <FaArrowLeft className="mt-1" />
+              Go Back
+            </a>
+          </button>
+        </div>
     </div>
   );
 }

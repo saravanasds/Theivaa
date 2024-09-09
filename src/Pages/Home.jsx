@@ -24,10 +24,10 @@ const Homecomponents = () => {
       heading: "DMIT",
       link:"/DMIT",
       description:
-        "(DMIT) is a helps in understanding an individuals potential and personality",
+        "DMIT helps you understand your strengths and personality traits.",
     },
     {
-      icon: <PiChalkboardTeacher />,
+      icon: <PiChalkboardTeacher/>,
       heading: "TIA",
       link:"/TIA",
       description:
@@ -53,11 +53,11 @@ const Homecomponents = () => {
       heading: "CWEECE",
       link:"/CWEECE",
       description:
-        "Empowering and Protecting Women and Child care.",
+        "Empowering and Protecting Women and Child care & development.",
     },
     {
       icon: <FaGear />,
-      heading: "JEE & Neet",
+      heading: "JEE & NEET",
       link:"/JEENEET",
       description:
         "Coaching Centre with excellent medical and Supervision.",

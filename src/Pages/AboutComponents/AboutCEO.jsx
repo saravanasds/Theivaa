@@ -1,5 +1,5 @@
 import React from "react";
-import ceo from "../../assets/HomeImages/ceo.jpeg";
+import jeganathan from "../../assets/HomeImages/jeganathan.jpeg";
 
 const AboutCEO = () => {
   return (
@@ -10,7 +10,7 @@ const AboutCEO = () => {
           data-aos-duration="800"
           data-aos-delay="300">
             <img
-              src={ceo}
+              src={jeganathan}
               alt=""
               className="w-full lg:h-[500px] h-[250px] rounded-xl shadow-lg"
             />
@@ -18,12 +18,10 @@ const AboutCEO = () => {
           <div className="lg:w-[60%] w-full h-auto flex flex-col justify-center items-center lg:text-start text-center lg:items-start lg:px-10 pt-10 lg:pt-0"data-aos="fade-left"
           data-aos-duration="800"
           data-aos-delay="300">
-          <h3 className="lg:text-3xl text-xl font-bold text-secondary lg:mb-5 mb-3">Mr.Jeganathan</h3>
+          <h3 className="lg:text-3xl text-xl font-bold text-darkred lg:mb-5 mb-3 uppercase">Mr.Jeganathan</h3>
             <h2 className="lg:text-xl text-base font-semibold text-primary lg:mb-5 mb-3 tracking-wider">CEO of Shree Theivaa Academy</h2>
             <p className="lg:text-lg text-sm  text-gray-500 mb-3 tracking-wider leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum
-              dolor sit amet consectetur adipisicing elitEius, a.Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum
-              dolor sit amet consectetur adipisicing elitEius, a.
+            As the Chief Executive Officer of Shree Theivaa Academy, Mr.Jeganathan is dedicated to steering our institution towards excellence and innovation in education. With a vision rooted in fostering academic growth and personal development, Mr.Jeganathan leads with a commitment to enhancing the learning experience for students and advancing our institution's mission.
             </p>
            
           </div>

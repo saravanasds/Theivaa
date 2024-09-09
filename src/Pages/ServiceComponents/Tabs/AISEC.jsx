@@ -101,15 +101,15 @@ const AISEC = () => {
       ],
     },
     {
-      title: "Animation Designing Course",
+      title: "Postgraduate Diploma in Computer Application Course",
       heading: "Course Overview :",
-      content: `Discover the art of animation design. This course teaches you how to create engaging animations using industry-standard software and techniques for explainer videos, character animations, and motion graphics.`,
+      content: ` The Postgraduate Diploma in Computer Applications (PGDCA) equips students with a solid foundation in computer science and applications. This course covers essential software development skills, programming languages, and IT fundamentals, preparing graduates for diverse roles in the tech industry.`,
       heading1: "key topics :",
       details: [
-        "Animation Principles",
-        "Storyboarding",
-        "Character Design",
-        "Motion Graphics Tools",
+        "Data Structures and Algorithms",
+        "Database Management",
+        "Software Engineering",
+        "Networking and Security",
       ],
     },
     {

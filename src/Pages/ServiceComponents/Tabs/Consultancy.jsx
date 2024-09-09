@@ -20,20 +20,22 @@ const Consultancy = () => {
   ];
   const Consultancy2 = [
     {
-      title: "Engineering-Tamil Nadu",
-      content: "( Chennai , Coimbatore )",
+      title: "Engineering - Tamil Nadu",
+      content: "( Chennai , Coimbatore , Bangalore )",
     },
     {
       title: "Medical -Tamil Nadu",
+      para:"( Para medical , Alied Health Science )",
       content: "(Chennai)",
     },
     {
       title: "Medical-(Abroad)",
+      para:"( Para medical , Alied Health Science )",
       content: "(All Country)",
     },
     {
       title: "All Course",
-      content: "(Tamil Nadu , Bangalore)",
+      content: "( Tamil Nadu , Bangalore )",
     },
   ];
 
@@ -87,7 +89,8 @@ const Consultancy = () => {
                     <h3 className="lg:text-xl text-xl font-semibold text-darkred tracking-wider mb-3 uppercase">
                       {consult1.title}
                     </h3>
-                    <p className="lg:text-base text-sm text-gray-700 tracking-wider">
+                    <p className="lg:text-base text-sm text-gray-700 tracking-wider mb-2">{consult1.para}</p>
+                    <p className="lg:text-base text-sm text-gray-700 tracking-wider ">
                       {consult1.content}
                     </p>
                   </div>

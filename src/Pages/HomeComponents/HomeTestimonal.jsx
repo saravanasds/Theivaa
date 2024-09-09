@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sta from "../../assets/HomeImages/Homedu.jpg";
-import sta1 from "../../assets/HomeImages/bgmen1.jpeg";
+import emoji from "../../assets/HomeImages/emoji.png";
+
 
 const HomeTestimonial = () => {
 
@@ -33,19 +33,19 @@ const HomeTestimonial = () => {
 
   const testimonials = [
     {
-      img: sta,
-      h: "James Anderson",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus omnis libero commodi accusamus placeat magni repudiandae iusto.",
+      img: emoji,
+      h: "Karthikeyan",
+      p: '"Enrolling at Shree Theivaa Academy was a great decision. The dedicated faculty,interactive classes made complex concepts easier to grasp, while regular assessments helped track my progress."',
     },
     {
-      img: sta1,
-      h: "Harry Smith",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus omnis libero commodi accusamus placeat magni repudiandae iusto.",
+      img: emoji,
+      h: "Naveen Kumar",
+      p: '"What sets Shree Theivaa Academy apart is their commitment to nurturing each student’s potential. Their practical approach, and innovative methods have made studying both enjoyable and impactful."',
     },
     {
-      img: sta,
-      h: "James Anderson",
-      p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus omnis libero commodi accusamus placeat magni repudiandae iusto.",
+      img: emoji,
+      h: "Aananthi",
+      p: '"I am grateful for the guidance from the teachers and staff at Shree Theivaa Academy. Their support has greatly boosted my academic growth. I highly recommend it for a dynamic and supportive learning experience."',
     },
     
   ];
@@ -62,7 +62,7 @@ const HomeTestimonial = () => {
           {testimonials.map((image, index) => (
             <div
               key={index}
-              className=" rounded-xl border-2 border-primary flex justify-center items-center max-w-[350px] h-auto lg:py-14 lg:px-10 py-8 px-3 gap-10"
+              className=" rounded-xl border-2 border-primary flex justify-center items-center max-w-[350px] lg:h-[500px] lg:py-14 lg:px-10 py-10 px-3 gap-10"
             >
             <div  className="flex justify-center items-center lg:mb-5">
             <img
@@ -73,8 +73,8 @@ const HomeTestimonial = () => {
             </div>
              
               <div>
-              <h2 className="lg:text-2xl text-xl font-bold text-primary  tracking-wider mb-3">{image.h}</h2>
-              <h2 className="lg:text-base text-sm text-primary  tracking-wider leading-noraml">{image.p}</h2>
+              <h2 className="lg:text-2xl text-xl font-bold text-darkred  tracking-wider mb-3">{image.h}</h2>
+              <h2 className="lg:text-base text-sm text-gray-600 tracking-wider leading-noraml">{image.p}</h2>
               </div>
               
             </div>

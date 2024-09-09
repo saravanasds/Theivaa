@@ -8,6 +8,8 @@ import paint from "../assets/HomeImages/paint.jpeg";
 import tia1 from "../assets/HomeImages/tia1.jpeg";
 import kids1 from "../assets/HomeImages/kids1.jpeg";
 import AISECT from "../assets/HomeImages/AISECT.jpeg";
+import bg3 from "../assets/HomeImages/bg3.jpg";
+import bg5 from "../assets/HomeImages/bg5.jpeg";
 
 const Services = () => {
   return (
@@ -71,6 +73,32 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300"
+        />
+        <ServiceFlip
+          frontContent="CWEECE"
+          backContent="CWEECE"
+          backContent2="Empowering youth means equipping them with the tools and confidence to unlock their full potential."
+          backColor="bg-yellow-500"
+          backgroundImage={bg3}
+          backgroundImageback={paint}
+          button="View Details"
+          link="./CWEECE"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+        />
+        <ServiceFlip
+          frontContent="JEE & NEET"
+          backContent="JEE (Joint Entrance Examination) and NEET (National Eligibility cum Entrance Test) "
+          backContent2="JEE and NEET are entrance exams for engineering and medical college admissions in India, testing knowledge in relevant subjects."
+          backColor="bg-yellow-500"
+          backgroundImage={bg5}
+          backgroundImageback={paint}
+          button="View Details"
+          link="./JEENEET"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
         />
         <ServiceFlip
           frontContent="CONSULTANCY"

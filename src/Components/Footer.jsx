@@ -7,6 +7,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { PiPhoneCallFill } from "react-icons/pi";
+import bgblack1 from "../assets/HomeImages/bgblack1.jpg"
 
 const Footer = () => {
   const data = [
@@ -29,7 +30,11 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className="w-full min-h-auto bg-primary flex flex-col justify-center items-center pt-10 p-10">
+      <div className="w-full lg:h-[450px] flex flex-col justify-center items-center p-10"style= {{
+            backgroundImage: `url(${bgblack1})`,
+            backgroundPositions: "bottom",
+            backgroundSize: "cover",
+          }}> <div className="w-full  bg-opacity-10 backdrop-blur-[1px] text-center pt-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 border-[1px] lg:px-5 py-5 md:p-10 lg:gap-10 text-white rounded-lg">
           <div className="flex-shrink-0 font-sen tracking-wider px-10">
             <img
@@ -104,16 +109,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-full  flex flex-col lg:flex-row lg:justify-between text-center bg-primary lg:px-20 px-3 py-3 border-t-2 border-white text-white text-xs tracking-wider lg:text-base">
-        <p className="mb-1">All rights reserved 2024.</p>
+        <div className="w-full  flex flex-col lg:flex-row lg:justify-between text-center lg:px-20 px-3  text-white text-xs tracking-wider lg:text-base mt-2">
+        <p className="">All rights reserved 2024.</p>
         <p>
           Created by{" "}
-          <span className="border-b-2 border-primary hover:border-secondary lg:text-base text-xs">
+          <span className="border-b-2 border-transparent hover:border-secondary lg:text-base text-xs">
             <a href="https://sdstechzone.in/">SDS Technologies.</a>
           </span>
         </p>
       </div>
+      </div>
+      
     </>
   );
 };

@@ -7,7 +7,9 @@ const HomeBanner = () => {
     { heading: "TIA" },
     { heading: "AISECT" },
     { heading: "DMIT" },
-    // { heading: "100+", },
+    { heading: "IGEN", },
+    { heading: "CWEECE", },
+    { heading: "JEE & NEET"},
   ];
 
   //para: "Certified Teachers"
@@ -24,7 +26,7 @@ const HomeBanner = () => {
         }}
       >
         <div className="w-full lg:h-[600px] h-[400px] text-center flex flex-col justify-center lg:items-end items-center  bg-[rgba(0,136,144,0.7)] lg:pr-16   py-10 px-5 lg:py-8 lg:px-3">
-          <div className="lg:w-1/2 h-[400px] border-2 border-secondary rounded-lg flex flex-col justify-center lg:items-center items-center lg:px-10 lg:py-8 px-5 shadow-lg"data-aos="fade-up" 
+          <div className="lg:w-1/2 h-[500px] border-2 border-secondary rounded-lg flex flex-col justify-center lg:items-center items-center lg:px-10 lg:py-8 px-5 shadow-lg"data-aos="fade-up" 
   data-aos-duration="800" 
   data-aos-delay="300" 
   data-aos-easing="ease-in-out">
@@ -40,7 +42,7 @@ const HomeBanner = () => {
                 key={index}
                 className="flex flex-col justify-center lg:items-end text-white lg:py-5 lg:px-10"
               >
-                <h2 className="lg:text-3xl  text-xl mb-3 font-bold tracking-wider text-darkred "style={{textShadow:"0px 2px 1px rgba(255,255,255,0.7)"}}>
+                <h2 className="lg:text-3xl  text-xl  font-bold tracking-wider text-darkred "style={{textShadow:"0px 2px 1px rgba(255,255,255,0.7)"}}>
                   {count.heading}
                 </h2>
                 {/* <h2 className="lg:text-xl text-sm tracking-wider font-semibold">{count.para}</h2> */}
