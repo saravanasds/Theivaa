@@ -160,7 +160,7 @@ const TiaDetails = () => {
           data-aos-duration="800"
           data-aos-delay="300">
             {" "}
-            <img src={brain2} alt="" className="w-full lg:h-72 h-52 mt-5 shadow-lg rounded-2xl" />
+            <img src={brain2} alt="" className="w-full lg:h-72 h-52 mt-5 shadow-lg rounded-2xl object-cover" />
           </div>
         </div>
 

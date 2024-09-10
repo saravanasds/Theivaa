@@ -113,7 +113,7 @@ function CWEECE() {
             dedication to innovation and empowerment.
           </p>
         </h2>
-        <img src={cw} alt="" className="lg:w-1/2 h-auto " />
+        <img src={cw} alt="" className="lg:w-1/2 h-auto object-cover" />
       </div>
       <div className=" bg-gradient-to-r  py-5">
         <div className="flex lg:flex-row flex-col justify-center items-center">

@@ -205,7 +205,7 @@ const AISEC = () => {
               <img
                 src={IT2}
                 alt=""
-                className="lg:w-full lg:h-auto h-52"
+                className="lg:w-full lg:h-auto h-52 object-cover"
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="200"
@@ -223,7 +223,7 @@ const AISEC = () => {
                 </ul>
               </div>
                <div className="lg:w-full h-auto p-5 rounded-lg bg-white gap-5 border-2 hover:shadow-lg lg:mb-5">
-                  <img src={uni1} alt="" className="w-full h-auto rounded-t-lg"/>
+                  <img src={uni1} alt="" className="w-full h-auto rounded-t-lg object-cover"/>
                   <div className="p-5 text-center ">
                     <h2 className="lg:text-xl text-lg font-bold text-darkred mb-5 tracking-wider">AISECT UNIVERSITY</h2>
                     <p className="lg:text-base text-sm text-gray-700 lg:mb-5  tracking-wider">We are honored to be authorized partners with some of the most prominent technology vendors. These licensing agreements enable us to offer premium software solutions, advanced tools, and comprehensive support, ensuring that our clients benefit from the latest innovations and industry-leading technologies.</p>
@@ -277,7 +277,7 @@ const AISEC = () => {
                 <img
                   src={IT}
                   alt=""
-                  className="lg:w-full lg:h-auto"
+                  className="lg:w-full lg:h-auto object-cover"
                   data-aos="fade-right"
                   data-aos-duration="800"
                   data-aos-delay="200"
@@ -295,7 +295,7 @@ const AISEC = () => {
                   </ul>
                 </div>
                 <div className="border-2 shadow-lg rounded-lg hover:shadow-xl">
-                  <img src={digi} alt="" className="w-full lg:h-80 h-36 rounded-t-lg"/>
+                  <img src={digi} alt="" className="w-full lg:h-80 h-36 rounded-t-lg object-cover"/>
                   <div className="p-5 ">
                     <h2 className="lg:text-xl text-sm font-semibold  tracking-wider mb-5 text-gray-700 text-center">Get Your Marketing and (Information Technology-Enabled Service) Career to the Next Level With Us</h2>
                   </div>

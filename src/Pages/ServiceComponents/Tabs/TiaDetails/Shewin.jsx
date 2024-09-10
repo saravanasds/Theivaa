@@ -17,7 +17,7 @@ const Shewin = () => {
         </div>
 
         <div className="flex lg:flex-row flex-col justify-center lg:gap-10 gap-5">
-          <img src={she} alt="" className="lg:w-1/2 lg:h-96  shadow-lg rounded-2xl" data-aos="fade-right"
+          <img src={she} alt="" className="lg:w-1/2 lg:h-96  shadow-lg rounded-2xl object-cover" data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"/>
           <p className="lg:w-1/2 lg:h-auto lg:text-base text-sm text-gray-700 tracking-wider py-5"data-aos="fade-left"

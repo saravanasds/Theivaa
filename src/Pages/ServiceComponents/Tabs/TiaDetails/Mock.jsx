@@ -49,10 +49,10 @@ const mock = () => {
           ))}
         </div>
        <div className=" lg:w-1/2 flex lg:flex-col gap-10">
-         <img src={mock1} alt="" className=' lg:w-full lg:h-auto  shadow-lg rounded-2xl'data-aos="fade-right"
+         <img src={mock1} alt="" className=' lg:w-full lg:h-auto  shadow-lg rounded-2xl object-cover'data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"/>
-         <img src={mock2} alt="" className="lg:full lg:h-auto shadow-lg  rounded-2xl"
+         <img src={mock2} alt="" className="lg:full lg:h-auto shadow-lg  rounded-2xl object-cover"
           data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"/>

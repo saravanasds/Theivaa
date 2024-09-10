@@ -77,7 +77,7 @@ const DMIT = () => {
           <img
             src={anim}
             alt=""
-            className="lg:w-1/2 lg:h-82 lg:p-16 md:px-10 md:py-10 px-5 py-5 "
+            className="lg:w-1/2 lg:h-82 lg:p-16 md:px-10 md:py-10 px-5 py-5 object-cover"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
@@ -98,7 +98,7 @@ const DMIT = () => {
                 <img
                   src={d.img}
                   alt=""
-                  className="w-full h-[250px] text-center"
+                  className="w-full h-[250px] text-center object-cover"
                 />
               </div>
               <div className="h-[40%] pb-5">

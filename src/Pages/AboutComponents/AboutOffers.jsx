@@ -54,19 +54,19 @@ const AboutOffers = () => {
             {offers.map((offers, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row justify-center items-center w-full text-center py-3  text-gray-700 shadow-lg hover:shadow-xl transform transition-all gap-5 lg:px-5 md:px-5 px-5 border-2 border-white hover:border-2 hover:border-primary rounded-xl"
+                className="flex flex-col  justify-center items-center w-full text-center py-3  text-gray-700 shadow-lg hover:shadow-xl transform transition-all gap-5 lg:px-5 md:px-5 px-5 border-2 border-white hover:border-2 hover:border-primary rounded-xl"
               >
-                <h1 className="lg:text-5xl text-4xl text-secondary mb-5 flex">
+                <h1 className="lg:text-5xl text-4xl text-secondary ">
                   {offers.icon}
                 </h1>
-                <div>
-                  <h1 className="lg:text-xl text-lg font-bold mb-4 tracking-wider text-primary">
+               
+                  <h1 className="lg:text-xl text-lg font-bold  tracking-wider text-primary">
                     {offers.heading}
                   </h1>
                   <h1 className="lg:text-base text-sm tracking-wider">
                     {offers.description}
                   </h1>
-                </div>
+            
               </div>
             ))}
           </div>

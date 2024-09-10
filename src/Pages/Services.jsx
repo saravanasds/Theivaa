@@ -19,7 +19,7 @@ const Services = () => {
         <h2 className="lg:w-3/4 text-center font-bold lg:text-3xl text-xl tracking-wider text-darkred pt-10 mb-5">OUR SERVICES</h2>
         <p className="lg:w-3/4 lg:text-lg text-sm text-gray-700 tracking-wider ">We provide a range of specialized services designed to empower you with the latest skills and knowledge in technology. Explore our offerings below to see how we can support your professional growth and business success.</p>
        </div>
-      <div className="lg:w-full lg:h-auto px-8 pb-8 pt-8 lg:px-20 lg:pb-20 lg:pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="lg:w-full lg:h-auto px-8 pb-8 pt-8 lg:px-20 lg:pb-20 lg:pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 object-cover">
         <ServiceFlip
           frontContent="DMIT"
           backContent="(Dermatoglyphics Multiple Intelligence Test)"

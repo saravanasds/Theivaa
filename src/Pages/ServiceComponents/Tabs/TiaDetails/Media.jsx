@@ -90,7 +90,7 @@ const Media = () => {
               ))}
             </div>
             <div className=" lg:w-1/2 flex flex-col  justify-end items-center gap-5">
-              <img src={flim} alt="" className="lg:w-full lg:h-80  shadow-lg rounded-2xl" data-aos="fade-left"
+              <img src={flim} alt="" className="lg:w-full lg:h-80  shadow-lg rounded-2xl object-cover" data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="200"/>
 

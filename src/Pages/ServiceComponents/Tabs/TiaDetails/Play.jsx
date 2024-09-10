@@ -93,7 +93,7 @@ const Play = () => {
                 <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                   {Courseinside.title}
                 </h2>
-                <ul className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 pl-5 "data-aos="fade-right"
+                <ul className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 "data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">
                   {Courseinside.details.map((Courseinside1, detailIndex) => (
@@ -102,7 +102,7 @@ const Play = () => {
                 </ul>
               </div>
             ))}
-            <img src={playkids} alt="" className="lg:w-full lg:h-80 shadow-lg rounded-2xl" data-aos="fade-right"
+            <img src={playkids} alt="" className="lg:w-full lg:h-80 shadow-lg rounded-2xl object-cover" data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="300"/>
           </div>

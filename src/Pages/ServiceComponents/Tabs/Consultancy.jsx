@@ -64,7 +64,7 @@ const Consultancy = () => {
             </p>
           </div>
           <div className="flex lg:flex-row flex-col justify-center items-center gap-10 lg:px-20 lg:py:10 px-5 py-5">
-            <img src={hand} alt="" className="lg:w-1/2 shadow-xl" />
+            <img src={hand} alt="" className="lg:w-1/2 shadow-xl object-cover" />
             <div>
               {Consultancy.map((consult, index) => (
                 <div className="flex flex-col justify-start items-center">

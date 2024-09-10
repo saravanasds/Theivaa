@@ -59,7 +59,7 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <img src={certi} alt="" className="lg:w-1/3 " />
+          <img src={certi} alt="" className="lg:w-1/3 object-cover" />
         </div>
       </div>
 

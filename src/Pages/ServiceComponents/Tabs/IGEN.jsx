@@ -204,7 +204,7 @@ const IGEN = () => {
           <img
             src={kids}
             alt=""
-            className="lg:w-1/2 lg:px-10 lg:h-screen rounded-xl  px-5 py-5"
+            className="lg:w-1/2 lg:px-10 lg:h-screen rounded-xl  px-5 py-5 object-cover"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="200"

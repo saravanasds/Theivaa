@@ -32,7 +32,7 @@ const TestHub = () => {
           </p>
         </div>
         <div className="flex lg:flex-row flex-col justify-center gap-10">
-          <img src={test} alt="" className="lg:w-1/2 lg:h-80 shadow-lg rounded-2xl" data-aos="fade-right"
+          <img src={test} alt="" className="lg:w-1/2 lg:h-80 shadow-lg rounded-2xl object-cover" data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"/>
 

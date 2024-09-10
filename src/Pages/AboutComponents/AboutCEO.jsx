@@ -12,7 +12,7 @@ const AboutCEO = () => {
             <img
               src={jeganathan}
               alt=""
-              className="w-full lg:h-[500px] h-[250px] rounded-xl shadow-lg"
+              className="w-full lg:h-[500px] h-[250px] rounded-xl shadow-lg object-cover"
             />
           </div>
           <div className="lg:w-[60%] w-full h-auto flex flex-col justify-center items-center lg:text-start text-center lg:items-start lg:px-10 pt-10 lg:pt-0"data-aos="fade-left"
