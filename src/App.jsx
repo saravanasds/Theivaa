@@ -12,7 +12,7 @@ import TIA from "./Pages/ServiceComponents/Tabs/TIA"
 import IGEN from "./Pages/ServiceComponents/Tabs/IGEN"
 import AISEC from "./Pages/ServiceComponents/Tabs/AISEC"
 import Consultancy from "./Pages/ServiceComponents/Tabs/Consultancy"
-import Esevai from "./Pages/ServiceComponents/Tabs/Esevai"
+
 import CWEECE from "./Pages/ServiceComponents/Tabs/CWEECE"
 import JEENEET from "./Pages/ServiceComponents/Tabs/JEENEET"
 
@@ -48,7 +48,7 @@ const App = () => {
               <Route path="IGEN" element={<IGEN />} />
               <Route path="AISEC" element={<AISEC/>} />
               <Route path="Consultancy" element={<Consultancy/>} />
-              <Route path="Esevai" element={<Esevai/>} />
+              
               <Route path="CWEECE" element={<CWEECE/>}/>
               <Route path="JEENEET" element={<JEENEET/>}/>
 

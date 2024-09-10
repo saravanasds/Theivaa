@@ -32,7 +32,7 @@ const Edge = () => {
         <div className="flex justify-center items-center pb-10"data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
-          <p className="lg:w-1/2 px-10 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
+          <p className="lg:w-full px-10 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
           <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-EDGE</span> helps students achieve their dreams by providing training
             for competitive exams like NEET, IIT-JEE, NTSE, and Olympiads. Our
             expert team offers top-quality education using specialized training

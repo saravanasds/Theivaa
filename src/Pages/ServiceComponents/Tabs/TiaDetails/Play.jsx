@@ -60,12 +60,18 @@ const Play = () => {
   return (
     <>
       <div className="border-b-2 border-primary py-10 lg:px-10 px-5">
-        <div className="flex justify-center items-center pb-10 "data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200">
-          <p className="lg:w-1/2 px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-PLAY</span>  offers a nurturing environment where children explore and
-            master skills through hands-on learning, engaging all five senses.
+        <div
+          className="flex justify-center items-center pb-10 "
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="200"
+        >
+          <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
+            <span className="text-darkred font-semibold lg:text-lg tracking-wider">
+              TIA-PLAY
+            </span>{" "}
+            offers a nurturing environment where children explore and master
+            skills through hands-on learning, engaging all five senses.
             Following Montessori principles, our trained staff fosters
             discovery, creativity, and a love for learning.
           </p>
@@ -73,9 +79,13 @@ const Play = () => {
         <div className="flex lg:flex-row flex-col justify-center gap-10 ">
           <div className=" lg:w-1/2 flex flex-col justify-around items-center leading-tight">
             {PlayDetails.map((PlayDetails, index) => (
-              <div key={index} className=""data-aos="fade-right"
-              data-aos-duration="800"
-              data-aos-delay="200">
+              <div
+                key={index}
+                className=""
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                   {PlayDetails.title}
                 </h2>
@@ -87,24 +97,36 @@ const Play = () => {
           </div>
           <div className=" lg:w-1/2 flex flex-col items-center gap-5">
             {courses.map((Courseinside, index) => (
-              <div key={index} className=""data-aos="fade-right"
-              data-aos-duration="800"
-              data-aos-delay="200">
+              <div
+                key={index}
+                className=""
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
                   {Courseinside.title}
                 </h2>
-                <ul className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 "data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-delay="200">
+                <ul
+                  className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 lg:px-5"
+                  data-aos="fade-right"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   {Courseinside.details.map((Courseinside1, detailIndex) => (
                     <li key={detailIndex}>{Courseinside1}</li>
                   ))}
                 </ul>
               </div>
             ))}
-            <img src={playkids} alt="" className="lg:w-full lg:h-80 shadow-lg rounded-2xl object-cover" data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-delay="300"/>
+            <img
+              src={playkids}
+              alt=""
+              className="lg:w-full lg:h-80 shadow-lg rounded-2xl object-left-bottom"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            />
           </div>
         </div>
       </div>

@@ -20,11 +20,11 @@ const Consultancy = () => {
   ];
   const Consultancy2 = [
     {
-      title: "Engineering - Tamil Nadu",
+      title: "Engineering Courses",
       content: "( Chennai , Coimbatore , Bangalore )",
     },
     {
-      title: "Medical -Tamil Nadu",
+      title: "Medical Courses",
       para:"( Para medical , Alied Health Science )",
       content: "(Chennai)",
     },
@@ -67,7 +67,7 @@ const Consultancy = () => {
             <img src={hand} alt="" className="lg:w-1/2 shadow-xl object-cover" />
             <div>
               {Consultancy.map((consult, index) => (
-                <div className="flex flex-col justify-start items-center">
+                <div className="flex flex-col lg:justify-start justify-center items-center">
                   <div>
                     <h2 className="lg:text-xl text-xl font-semibold text-darkred tracking-wider mb-3">
                       {consult.title}
@@ -85,7 +85,7 @@ const Consultancy = () => {
               <h2 className="lg:text-2xl text-xl font-bold text-primary mb-8 text-center tracking-wider">Our Expert Services</h2>
               <div className="w-full p-3 mb-5 grid lg:grid-cols-2 gap-10">
                 {Consultancy2.map((consult1, index) => (
-                  <div className=" border-2 shadow-xl text-center py-5 rounded-lg hover:border-2 hover:border-darkred hover:scale-[1.1] transform transition-all duration-500">
+                  <div className=" border-2 shadow-xl text-center py-5 px-5 rounded-lg hover:border-2 hover:border-darkred hover:scale-[1.1] transform transition-all duration-500">
                     <h3 className="lg:text-xl text-xl font-semibold text-darkred tracking-wider mb-3 uppercase">
                       {consult1.title}
                     </h3>
@@ -100,8 +100,8 @@ const Consultancy = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center py-10">
-          <button className=" lg:px-6 lg:py-2 px-3 py-1 bg-primary text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
+        <div className="flex justify-center items-center lg:py-10 pb-5">
+          <button className=" lg:px-6 lg:py-2 px-3 py-2 bg-primary text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">
             <a href="/services" className="flex gap-3">
               <FaArrowLeft className="mt-1" />
               Go Back

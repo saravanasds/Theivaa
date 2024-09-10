@@ -108,10 +108,10 @@ const TiaDetails = () => {
     Talent Initiators and Talent Accelerators
   </div>
 </div>
-      <div className="flex justify-center items-center py-10 "data-aos="fade-up"
+      <div className="flex justify-center items-center lg:px-10 lg:py-10 "data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300">
-        <p className="lg:w-1/2 h-auto text-center lg:text-lg text-sm text-primary tracking-wider px-10">
+        <p className="lg:w-full h-auto text-center lg:text-lg text-sm text-primary tracking-wider py-5 px-10">
           <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-BRAIN</span> is a brain training program designed to unlock the hidden
           talents of children. Unlike traditional education, which often focuses
           on just one side of the brain, TIA-BRAIN helps kids develop both sides
@@ -121,7 +121,7 @@ const TiaDetails = () => {
           and lead a fulfilling life.
         </p>
       </div>
-      <div className="w-full h-auto flex flex-col md:flex-row pb-10">
+      <div className="w-full h-auto flex flex-col md:flex-row pb-10 lg:px-10">
         {/* Brain Fitness Content */}
 
         <div className="w-full md:w-1/2 lg:px-10 px-5">
@@ -165,7 +165,7 @@ const TiaDetails = () => {
         </div>
 
         {/* Brain Waves Content */}
-        <div className="w-full md:w-1/2 lg:px-10 px-5">
+        <div className="w-full md:w-1/2 lg:px-20 px-5">
           <h2 className="lg:text-3xl text-2xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">

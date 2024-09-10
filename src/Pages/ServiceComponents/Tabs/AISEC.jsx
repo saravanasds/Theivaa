@@ -89,7 +89,7 @@ const AISEC = () => {
       ],
     },
     {
-      title: "SEO (Search Engine Optimization)Course",
+      title: "Search Engine Optimization Course",
       heading: "Course Overview :",
       content: `Master the techniques to improve your website's search engine rankings. This course covers keyword research, on-page and off-page SEO, and analytics to drive organic traffic and enhance online visibility.`,
       heading1: "key topics :",
@@ -101,7 +101,7 @@ const AISEC = () => {
       ],
     },
     {
-      title: "Postgraduate Diploma in Computer Application Course",
+      title: "PGDCA Course",
       heading: "Course Overview :",
       content: ` The Postgraduate Diploma in Computer Applications (PGDCA) equips students with a solid foundation in computer science and applications. This course covers essential software development skills, programming languages, and IT fundamentals, preparing graduates for diverse roles in the tech industry.`,
       heading1: "key topics :",
@@ -136,6 +136,19 @@ const AISEC = () => {
         "Analytics and Metrics",
       ],
     },
+    {
+      "title": "Digital Marketing Mastery Course",
+      "heading": "Course Overview :",
+      "content": `Master the art of digital marketing with this all-encompassing course. Discover strategies for SEO, PPC, email marketing, and content marketing to enhance your online presence and drive measurable results.`,
+      "heading1": "Key Topics :",
+      "details": [
+        "Search Engine Optimization (SEO)",
+        "Pay-Per-Click (PPC) Advertising",
+        "Email Marketing",
+        "Analytics and Conversion Optimization"
+      ]
+    }
+    
   ];
 
   return (
@@ -166,7 +179,7 @@ const AISEC = () => {
             </nav>
             </div>
             
-          <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-10 mb-5">
+          <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-10 lg:mb-10 mb-5">
             Information Technology (IT){" "}
           </h2>
 
@@ -181,7 +194,7 @@ const AISEC = () => {
                   data-aos-duration="800"
                   data-aos-delay="200"
                 >
-                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
+                  <h2 className="lg:text-xl text-lg font-bold tracking-wider text-darkred mb-3">
                     {aisect1.title}
                   </h2>
                   <h2 className="lg:text-lg text-md text-primary font-semibold mb-1">
@@ -239,7 +252,7 @@ const AISEC = () => {
           {/* //second  */}
 
           <div id="ITes" >
-            <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-20">
+            <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-20 lg:mb-5">
               Information Technology-Enabled Services (ITes){" "}
             </h2>
             <div className="flex lg:flex-row flex-col justify-center gap-10 pt-10">

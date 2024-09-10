@@ -27,7 +27,7 @@ const mock = () => {
         <div className="flex justify-center items-center pb-10 "data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
-          <p className="lg:w-1/2 px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
+          <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
           <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MOCK</span>  hopes you're having a great day as you explore our website.
             We're excited to make a positive impact on everyone who joins our
             family today.

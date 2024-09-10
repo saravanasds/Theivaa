@@ -47,7 +47,7 @@ const Media = () => {
         <div className="flex justify-center items-center pb-10 "data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200">
-          <p className="lg:w-1/2 px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
+          <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
           <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MEDIAS</span> provides hands-on training for a career in film. Learn
             filmmaking through practical experience in writing, lighting,
             camerawork, editing, and directing, guided by industry experts. We

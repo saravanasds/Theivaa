@@ -74,22 +74,30 @@ function JEENEET() {
       </section>
 
       {/* Gurcharanam Advantages */}
-      <section className="lg:mb-10 mb-8 text-center tracking-wider">
-        <h2 className="lg:text-2xl text-xl font-semibold mb-5 text-darkred">Why Choose Shree Theivaa Academy?</h2>
-        <ul className="lg:text-base text-sm text-gray-700 ml-6 mt-4 ">
+      <section className=" w-full lg:mb-10 mb-8  tracking-wider flex lg:flex-row justify-center items-center">
+     
+          <div className='lg:w-1/2 '>
+          <h2 className="lg:text-2xl text-xl font-semibold mb-5 text-darkred">Why Choose Shree Theivaa Academy?</h2>
+        <ul className="lg:text-base text-sm text-gray-700 ml-6 mt-4 list-disc">
           <li>Comprehensive Study Material with rich content to cover all subjects.</li>
           <li>Highly Qualified Faculty with decades of experience in teaching.</li>
           <li>Use of Advanced Technologies to provide quality education both offline and online.</li>
           <li>Regular Mock Tests and performance reviews to help students track their progress.</li>
         </ul>
+          </div>
+        <div className="lg:w-1/2 text-center ">
+          <button className="text-center px-8 lg:px-20 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300">
+            <a href="https://gurcharanamacademy.in/">View More JEE & NEET</a>
+          </button>
+        
+        </div>
+
+
+        
       </section>
 
       {/* Footer Section */}
-      <div className="w-full text-center">
-          <button className="text-center px-8 lg:px-14 lg:py-3 py-2 mb-5 lg:text-lg text-sm font-medium text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300">
-            <a href="https://gurcharanamacademy.in/">View More</a>
-          </button>
-        </div>
+     
 
         <div className="flex justify-center items-center  pb-5">
           <button className="lg:px-6 lg:py-2 px-3 py-1 bg-primary hover:bg-red  text-white lg:text-base text-sm font-semibold tracking-wider rounded-lg">

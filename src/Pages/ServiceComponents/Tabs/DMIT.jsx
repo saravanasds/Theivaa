@@ -30,7 +30,7 @@ const DMIT = () => {
       p: "Find the right Employee for the right job. Pre-Employments Screening. Know your employee Personal potentials IQ-AQ-EQ-SQ-CQ. Discover Leadership, Planning and execution Qualities.",
     },
   ];
-  
+
   return (
     <>
       <div className="w-full h-auto ">
@@ -45,18 +45,18 @@ const DMIT = () => {
           <div className="w-full lg:h-[450px] h-[300px] bg-primary bg-opacity-10 backdrop-blur-[1px] text-center pt-44"></div>
         </div>
         {/* // DMIT */}
-        <h2 className="lg:text-3xl text-xl text-center font-bold text-darkred">
+        <h2 className="lg:text-3xl text-xl text-center lg:text-left flex flex-col justify-center items-center  font-bold text-darkred">
           Dermatoglyphics Multiple Intelligence Test (DMIT)
         </h2>
 
         <div className="w-full h-82 flex flex-col lg:flex-row lg:px-10">
           <div
-            className="lg:w-1/2 h-auto flex flex-col justify-center items-center lg:p-5 px-5 text-center"
+            className="lg:w-1/2 h-auto  flex flex-col justify-center lg:p-5 px-5 text-center lg:text-left"
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            <h2 className="lg:text-3xl text-xl font-semibold text-primary text-center mb-5">
+            <h2 className="lg:text-3xl text-xl font-semibold  text-primary text-center lg:text-left mb-5">
               What is DMIT ?
             </h2>
             <p className="tracking-wider leading-loose lg:text-base text-sm mb-5 text-gray-600">
@@ -70,7 +70,7 @@ const DMIT = () => {
               Know your Strength and weakness by DMIT Test Report based on
               Dermatoglyphics and brain analysis.{" "}
             </p>
-            <button className="lg:px-10 lg:py-2 mt-5 px-5 py-1 lg:text-base text-sm bg-primary tracking-wider text-white font-medium rounded-lg hover:scale-[1.1] transform transition-all hover:bg-red">
+            <button className=" lg:w-1/2 lg:px-10 lg:py-2 mt-5 px-5 py-1 lg:text-base text-sm  bg-primary tracking-wider text-white font-medium rounded-lg hover:scale-[1.1] transform transition-all hover:bg-red">
               <a href="https://dmitlab.in/">Read More</a>
             </button>
           </div>
@@ -171,50 +171,33 @@ const DMIT = () => {
                 Fingerprints and Brain Lobes
               </b>
             </div>
-            <div className="lg:mt-5 mt-2 text-sm lg:text-base  text-gray-700">
-              <div className="flex justify-start items-center gap-3 p-2 ">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  Brain Lobes can be analyzed depending on formation and amount
-                  of ridge present in the finger prints.
-                </span>
-              </div>
-              <div className="flex justify-start items-center gap-3 p-2">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  Medical experts confirmed that each person’s fingerprints are
-                  unique and no one has the same.
-                </span>
-              </div>
-              <div className="flex justify-start items-center gap-3 p-2">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  Fingerprints demonstrate different types of characteristics,
-                  even identical twin babies.
-                </span>
-              </div>
-              <div className="flex justify-start items-center gap-3 p-2">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  The syndication of fingerprints is recognized as a
-                  representation of human brain cells.
-                </span>
-              </div>
-              <div className="flex justify-start items-center gap-3 p-2">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  Fingerprint development depends on proportion & distribution
-                  of brain lobes.
-                </span>
-              </div>
-              <div className="flex justify-start items-center gap-3 p-2">
-                <VscDebugBreakpointLog className="w-6 h-6 text-secondary" />
-                <span>
-                  Children with learning difficulties will have different
-                  fingerprints in comparison to talented children.
-                </span>
-              </div>
-            </div>
+            <ul className=" lg:mt-5 mt-2 text-sm lg:text-base text-gray-700 list-disc">
+              <li className="flex justify-start items-center gap-3 p-2 ">
+               
+                Brain Lobes can be analyzed depending on formation and amount of
+                ridge present in the fingerprints.
+              </li>
+              <li className="flex justify-start items-center gap-3 p-2">
+                Medical experts confirmed that each person’s fingerprints are
+                unique and no one has the same.
+              </li>
+              <li className="flex justify-start items-center gap-3 p-2">
+                Fingerprints demonstrate different types of characteristics,
+                even in identical twin babies.
+              </li>
+              <li className="flex justify-start items-center gap-3 p-2">
+                The syndication of fingerprints is recognized as a
+                representation of human brain cells.
+              </li>
+              <li className="flex justify-start items-center gap-3 p-2">
+                Fingerprint development depends on the proportion and
+                distribution of brain lobes.
+              </li>
+              <li className="flex justify-start items-center gap-3 p-2">
+                Children with learning difficulties will have different
+                fingerprints in comparison to talented children.
+              </li>
+            </ul>
           </p>
         </div>
         <div></div>

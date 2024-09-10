@@ -14,7 +14,7 @@ const HomeTestimonial = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 768, // For tablets and small screens
