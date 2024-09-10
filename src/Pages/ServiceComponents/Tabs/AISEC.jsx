@@ -179,7 +179,7 @@ const AISEC = () => {
             </nav>
             </div>
             
-          <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-10 lg:mb-10 ">
+          <h2 className="lg:text-3xl text-xl tracking-wider font-bold text-darkred text-center mt-10 lg:mb-10 mb-5">
             Information Technology (IT){" "}
           </h2>
 
@@ -242,9 +242,9 @@ const AISEC = () => {
                     <p className="lg:text-base text-sm text-gray-700 lg:mb-5  tracking-wider">We are honored to be authorized partners with some of the most prominent technology vendors. These licensing agreements enable us to offer premium software solutions, advanced tools, and comprehensive support, ensuring that our clients benefit from the latest innovations and industry-leading technologies.</p>
                   </div>
               </div>
-                <div className="shadow-lg bg-white p-5 text-center pb-8 hover:scale-[1.1] transform transition-all">
-                <h2 className="lg:text-xl text-lg font-bold text-primary mb-5 tracking-wider">AISECT UNIVERSITY</h2>
-                <button className=" lg:text-lg text-base text-darkred border-white border-2 hover:border-b-2 hover:border-b-primary"><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
+                <div className="shadow-lg bg-red p-5 border-darkred border-2 text-center pb-8 hover:scale-[1.1] transform transition-all">
+                <h2 className="lg:text-xl text-lg font-bold text-white mb-5 tracking-wider">AISECT UNIVERSITY</h2>
+                <button className=" lg:text-lg text-base text-white border-white border-2 hover:border-b-2 hover:border-b-primary"><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
                 </div>
             </div>
 
@@ -261,7 +261,7 @@ const AISEC = () => {
                 {aisect2.map((aisect3, index) => (
                   <div
                     key={index}
-                    className="border-b-2 lg:pb-8"
+                    className="border-b-2 lg:pb-8 pb-4"
                     data-aos="fade-left"
                     data-aos-duration="800"
                     data-aos-delay="200"

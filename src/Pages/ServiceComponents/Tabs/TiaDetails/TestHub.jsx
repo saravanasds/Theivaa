@@ -36,7 +36,7 @@ const TestHub = () => {
             data-aos-duration="800"
             data-aos-delay="200"/>
 
-          <div className=" lg:w-1/2 flex flex-col justify-center py-10">
+          <div className=" lg:w-1/2 flex flex-col justify-center lg:py-10 ">
             {Test.map((test1, index) => (
               <div key={index} className=""data-aos="fade-left"
               data-aos-duration="800"

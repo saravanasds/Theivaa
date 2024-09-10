@@ -136,9 +136,9 @@ const Homecomponents = () => {
       {/* // HomeService Section End */}
 
       {/* // HomeTeam Section Start  */}
-      <div className="w-full h-auto mb-[0.75rem] py-10 ">
+      <div className="w-full h-auto mb-[0.75rem] py-10 lg:block hidden">
         <div
-          className=" container mx-auto lg:h-[450px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center"
+          className=" container mx-auto lg:h-[450px] h-[300px] bg-cover object-cover flex justify-center items-center  text-lg px-10 lg:px-0 lg:text-4xl font-bold tracking-wider text-center "
           style={{
             backgroundImage: `url(${Homedu})`,
             backgroundAttachment: "fixed",

@@ -65,15 +65,15 @@ function CWEECE() {
           }}
         >
           {" "}
-          <div className="w-full lg:h-[400px] h-[300px] bg-primary bg-opacity-10 backdrop-blur-[1px] text-center pt-44"></div>
+          <div className="w-full lg:h-[400px] h-[300px] bg-primary bg-opacity-10 backdrop-blur-[1px] text-center pt-36 lg:text-5xl text-3xl font-bold text-white tracking-wider px-10">CWEECE</div>
         </div>
       </div>
-      <h2 className="lg:text-3xl  text-xl text-darkred text-center font-bold px-5">
+      <h2 className="lg:text-3xl  text-lg text-darkred text-center font-bold px-5">
         Empowering youth unlocks their full potential.
       </h2>
 
-      <div className="flex lg:flex-row flex-col p-5">
-        <h2 className=" lg:pl-10 pl-5 lg:w-full lg:text-lg text-medium  text-primary tracking-wider mb-5 text-center lg:py-10 ">
+      <div className="flex lg:flex-row flex-col justify-center items-center p-5">
+        <h2 className=" lg:pl-10 pl-5 lg:w-full lg:text-lg text-sm text-medium  text-primary tracking-wider mb-5 text-center lg:py-10 ">
           The core of today's educational framework is its multi-disciplinary
           approach, which allows students to excel in both academic and
           non-academic domains. By offering diverse specializations, modern
@@ -121,7 +121,7 @@ function CWEECE() {
             <h2 className="lg:text-3xl text-xl font-semibold  text-darkred tracking-wider mb-5 text-center uppercase">
               Providing Courses
             </h2>
-            <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 justify-center items-center py-5 px-8">
+            <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-5 gap-3 justify-center items-center lg:py-5 lg:px-8 px-4">
               {cweece.map((c, index) => (
                 <div className=" flex flex-col justify-center items-center uppercase ">
                   <div className="font-semibold   bg-white  text-primary transform transition-all tracking-wider mb-3 lg:py-2 lg:px-5 rounded-lg w-[90%] shadow-md hover:shadow-red border-red border-[1px]">
@@ -132,8 +132,8 @@ function CWEECE() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center items-center py-10">
-              <button className=" lg:px-24 lg:py-3 px-3 py-1 bg-primary hover:bg-red transform transition-all text-white lg:text-lg text-sm font-semibold tracking-wider rounded-lg">
+            <div className="flex justify-center items-center lg:py-10 py-5">
+              <button className=" lg:px-24 lg:py-3 px-4 py-2 bg-primary hover:bg-red transform transition-all text-white lg:text-lg text-sm font-semibold tracking-wider rounded-lg">
                 <a href="https://cweece.com/" className="flex gap-3">
                   View More
                 </a>

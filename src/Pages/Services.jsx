@@ -89,7 +89,7 @@ const Services = () => {
         />
         <ServiceFlip
           frontContent="JEE & NEET"
-          backContent="JEE (Joint Entrance Examination) and NEET (National Eligibility cum Entrance Test) "
+          backContent="JEE  and NEET "
           backContent2="JEE and NEET are entrance exams for engineering and medical college admissions in India, testing knowledge in relevant subjects."
           backColor="bg-yellow-500"
           backgroundImage={bg5}

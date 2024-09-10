@@ -74,9 +74,9 @@ function JEENEET() {
       </section>
 
       {/* Gurcharanam Advantages */}
-      <section className=" w-full lg:mb-10 mb-8  tracking-wider flex lg:flex-row justify-center items-center">
+      <section className=" w-full lg:mb-10 mb-8  tracking-wider flex lg:flex-row flex-col justify-center items-center">
      
-          <div className='lg:w-1/2 '>
+          <div className='lg:w-1/2 mb-5'>
           <h2 className="lg:text-2xl text-xl font-semibold mb-5 text-darkred">Why Choose Shree Theivaa Academy?</h2>
         <ul className="lg:text-base text-sm text-gray-700 ml-6 mt-4 list-disc">
           <li>Comprehensive Study Material with rich content to cover all subjects.</li>

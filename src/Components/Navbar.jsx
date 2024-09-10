@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row justify-center items-center overflow-x-auto">
-      <div className="flex w-full  justify-between items-center bg-white shadow-md px-4 py-3 lg:px-20 ">
+    <div className="relative flex flex-col lg:flex-row justify-center items-center overflow-x-auto shadow-lg">
+      <div className="flex w-full  justify-between items-center bg-white  px-4 py-3 lg:px-20 ">
         <h1 className="flex-shrink-0 font-sen text-[2rem] font-semibold pl-5">
           <img src={sta} alt="Logo" className="h-auto w-[200px] lg:w-[200px]" />
         </h1>

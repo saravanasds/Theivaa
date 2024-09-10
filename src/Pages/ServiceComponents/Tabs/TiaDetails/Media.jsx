@@ -49,7 +49,7 @@ const Media = () => {
             data-aos-delay="200">
           <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
           <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MEDIAS</span> provides hands-on training for a career in film. Learn
-            filmmaking through practical experience in writing, lighting,
+            film making through practical experience in writing, lighting,
             camerawork, editing, and directing, guided by industry experts. We
             offer courses for all levels, from master artists to hobbyists, with
             no prior experience needed. Create short films, TV ads, or family
@@ -77,7 +77,7 @@ const Media = () => {
                 <div key={index} className=""data-aos="fade-right"
                 data-aos-duration="800"
                 data-aos-delay="200">
-                  <h2 className="lg:text-2xl font-semibold text-primary mb-5">
+                  <h2 className="lg:text-2xl text-xl font-semibold text-primary mb-5">
                     {Flim1.h2}
                   </h2>
                   <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">

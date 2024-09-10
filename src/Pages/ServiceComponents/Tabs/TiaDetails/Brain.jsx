@@ -125,7 +125,7 @@ const TiaDetails = () => {
         {/* Brain Fitness Content */}
 
         <div className="w-full md:w-1/2 lg:px-10 px-5">
-          <h2 className="lg:text-3xl text-2xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
+          <h2 className="lg:text-3xl text-xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
           data-aos-duration="800"
           data-aos-delay="300">
             Brain Fitness
@@ -166,7 +166,7 @@ const TiaDetails = () => {
 
         {/* Brain Waves Content */}
         <div className="w-full md:w-1/2 lg:px-20 px-5">
-          <h2 className="lg:text-3xl text-2xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
+          <h2 className="lg:text-3xl text-xl font-semibold text-primary tracking-wider pt-5 pb-5 uppercase"data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200">
             Brain Waves

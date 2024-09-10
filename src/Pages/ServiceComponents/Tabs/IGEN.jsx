@@ -136,7 +136,7 @@ const IGEN = () => {
           </div>
         </div>
             
-        <h2 className="text-center text-primary lg:text-2xl text-xl font-bold tracking-wider mb-5 lg:py-5">
+        <h2 className="text-center text-primary lg:text-2xl text-xl font-bold tracking-wider py-5 lg:py-5">
               Unlock Your Child’s Potential with Our Exciting Classes!
             </h2> 
         <div className="w-full h-auto flex lg:flex-row flex-col justify-center items-center  lg:pb-10">

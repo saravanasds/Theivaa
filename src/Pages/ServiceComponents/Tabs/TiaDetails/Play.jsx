@@ -108,7 +108,7 @@ const Play = () => {
                   {Courseinside.title}
                 </h2>
                 <ul
-                  className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 lg:px-5"
+                  className="lg:text-base text-sm tracking-wider text-gray-700 leading-tight list-disc mb-5 lg:px-5 px-5"
                   data-aos="fade-right"
                   data-aos-duration="800"
                   data-aos-delay="200"

@@ -45,7 +45,7 @@ const DMIT = () => {
           <div className="w-full lg:h-[450px] h-[300px] bg-primary bg-opacity-10 backdrop-blur-[1px] text-center pt-44"></div>
         </div>
         {/* // DMIT */}
-        <h2 className="lg:text-3xl text-xl text-center lg:text-left flex flex-col justify-center items-center  font-bold text-darkred">
+        <h2 className="lg:text-3xl text-xl text-center lg:text-left flex flex-col justify-center items-center  font-bold text-darkred px-5 mb-5">
           Dermatoglyphics Multiple Intelligence Test (DMIT)
         </h2>
 
@@ -130,7 +130,7 @@ const DMIT = () => {
           >
             <div className="flex lg:flex-col lg:justify-start justify-center">
               {" "}
-              <b className=" lg:text-2xl text-primary tracking-wider">
+              <b className=" lg:text-2xl text-lg text-primary tracking-wider">
                 Fingerprints and Brain Connection
               </b>
             </div>
@@ -165,7 +165,7 @@ const DMIT = () => {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            <div className="text-center lg:text-left">
+            <div className=" lg:text-left">
              
               <b className="lg:text-2xl text-lg text-primary tracking-wider">
                 Fingerprints and Brain Lobes
@@ -202,7 +202,7 @@ const DMIT = () => {
         </div>
         <div></div>
         <div
-          className="flex justify-center items-center py-10"
+          className="flex justify-center items-center lg:py-10 py-5"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300"

@@ -21,7 +21,7 @@ const Shewin = () => {
             data-aos-duration="800"
             data-aos-delay="200"/>
           <div>
-          <p className="lg:w-full lg:h-auto lg:text-base text-sm text-gray-700 tracking-wider"data-aos="fade-left"
+          <p className="lg:w-full lg:h-auto lg:text-base text-sm text-gray-700 tracking-wider"data-aos="fade-left mb-5"
             data-aos-duration="800"
             data-aos-delay="200">
             SHEWIN is a platform for women to mentor each other, share
@@ -33,7 +33,7 @@ const Shewin = () => {
             updates to help you succeed. Join us to realize your dreams and make
             a difference together.
           </p>
-          <div className="w-full lg:text-left text-center"><button className="text-center lg:px-14 px-8 lg:py-3 py-2 lg:text-lg text-sm font-semibold text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300"><a href="https://tiaedu.in/">View More about TIA</a></button></div>
+          <div className="w-full lg:text-left text-center "><button className="text-center lg:px-14 px-8 lg:py-3 py-2 lg:text-lg text-sm font-semibold text-white hover:bg-primary bg-red lg:mt-10 rounded-lg transform transition-all duration-300"><a href="https://tiaedu.in/">View More about TIA</a></button></div>
         </div>
           </div>
         
