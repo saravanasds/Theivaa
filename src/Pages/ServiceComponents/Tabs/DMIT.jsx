@@ -86,7 +86,7 @@ const DMIT = () => {
 
         {/* //DMIT catagory */}
         <div
-          className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-auto gap-5 text-center pt-10 pb-20"
+          className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-auto gap-5 text-center pt-10 lg:pb-20"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300"
