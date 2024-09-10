@@ -102,7 +102,7 @@ const TiaDetails = () => {
   />
   
   {/* Text without blur effect */}
-  <div className="absolute inset-0 flex items-center justify-start pl-10 z-2 text-white font-semibold lg:text-3xl text-lg uppercase"style={{
+  <div className="absolute inset-0 flex items-center justify-center z-2 text-white font-semibold lg:text-3xl text-lg uppercase"style={{
     textShadow:"0px 2px 2px rgba(0,0,0,0.7)"
   }}>
     Talent Initiators and Talent Accelerators

@@ -93,11 +93,11 @@ const Footer = () => {
             <h2 className="lg:text-2xl text-xl lg:mb-5 text-center tracking-wider mb-3 text-secondary">
               Social Media
             </h2>
-            <div className="grid grid-cols-2 lg:px-10 ">
+            <div className="grid grid-cols-2 lg:px-16 px-8">
               {data.map((icon1, index) => (
                 <div
                   key={index}
-                  className=" flex justify-center items-center text-white lg:px-10 lg:py-3 px-4 py-2"
+                  className=" flex justify-center items-center text-white px-4 py-2"
                 >
                   <h2
                     className="lg:text-4xl text-lg lg:mb-2 font-bold tracking-wider text-white hover:text-red hover:bg-white transform transition-all duration-500 hover:-translate-y-1 hover:duration-300 rounded-lg p-[0.5]"

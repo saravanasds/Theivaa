@@ -165,13 +165,13 @@ const DMIT = () => {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            <div className="text-center">
-              {" "}
+            <div className="text-center lg:text-left">
+             
               <b className="lg:text-2xl text-lg text-primary tracking-wider">
                 Fingerprints and Brain Lobes
               </b>
             </div>
-            <ul className=" lg:mt-5 mt-2 text-sm lg:text-base text-gray-700 list-disc">
+            <ul className=" list-disc mt-2 text-sm lg:text-base text-gray-700 ">
               <li className="flex justify-start items-center gap-3 p-2 ">
                
                 Brain Lobes can be analyzed depending on formation and amount of

@@ -77,7 +77,7 @@ const Play = () => {
           </p>
         </div>
         <div className="flex lg:flex-row flex-col justify-center gap-10 ">
-          <div className=" lg:w-1/2 flex flex-col justify-around items-center leading-tight">
+          <div className=" lg:w-1/2 flex flex-col justify-around items-center ">
             {PlayDetails.map((PlayDetails, index) => (
               <div
                 key={index}
@@ -86,7 +86,7 @@ const Play = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
+                <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3 ">
                   {PlayDetails.title}
                 </h2>
                 <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">
@@ -95,7 +95,7 @@ const Play = () => {
               </div>
             ))}
           </div>
-          <div className=" lg:w-1/2 flex flex-col items-center gap-5">
+          <div className=" lg:w-1/2 flex flex-col items-center gap-5 lg:mt-2">
             {courses.map((Courseinside, index) => (
               <div
                 key={index}

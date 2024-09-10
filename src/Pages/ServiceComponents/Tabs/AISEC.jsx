@@ -179,7 +179,7 @@ const AISEC = () => {
             </nav>
             </div>
             
-          <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-10 lg:mb-10 mb-5">
+          <h2 className="lg:text-3xl text-lg tracking-wider font-bold text-darkred text-center mt-10 lg:mb-10 ">
             Information Technology (IT){" "}
           </h2>
 
@@ -218,7 +218,7 @@ const AISEC = () => {
               <img
                 src={IT2}
                 alt=""
-                className="lg:w-full lg:h-auto h-52 object-cover"
+                className="lg:w-full lg:h-auto h-52 object-cover lg:mt-10 "
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="200"
@@ -257,11 +257,11 @@ const AISEC = () => {
             </h2>
             <div className="flex lg:flex-row flex-col justify-center gap-10 pt-10">
             
-              <div className=" lg:w-2/3 grid lg:grid-cols-2 gap-8">
+              <div className=" lg:w-2/3 grid lg:grid-cols-2 gap-8  ">
                 {aisect2.map((aisect3, index) => (
                   <div
                     key={index}
-                    className=""
+                    className="border-b-2 lg:pb-8"
                     data-aos="fade-left"
                     data-aos-duration="800"
                     data-aos-delay="200"
