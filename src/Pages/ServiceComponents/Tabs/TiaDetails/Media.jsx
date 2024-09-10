@@ -80,7 +80,7 @@ const Media = () => {
                   <h2 className="lg:text-2xl text-xl font-semibold text-primary mb-5">
                     {Flim1.h2}
                   </h2>
-                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
+                  <h2 className="lg:text-xl text-base font-semibold tracking-wider text-darkred mb-3">
                     {Flim1.title}
                   </h2>
                   <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">
@@ -98,7 +98,7 @@ const Media = () => {
                 <div key={index} className=""data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="200">
-                  <h2 className="lg:text-xl text-lg font-semibold tracking-wider text-darkred mb-3">
+                  <h2 className="lg:text-xl text-base font-semibold tracking-wider text-darkred mb-3">
                     {ad1.title}
                   </h2>
                   <p className="lg:text-base text-sm tracking-wider text-gray-700 mb-3">

@@ -35,7 +35,7 @@ const HomeTestimonial = () => {
     {
       img: emoji,
       h: "Karthikeyan",
-      p: '"Enrolling at Shree Theivaa Academy was a great decision. The dedicated faculty,interactive classes made complex concepts easier to grasp, while regular assessments helped track my progress."',
+      p: '"Enrolling at Shree Theivaa Academy was a great decision. The dedicated faculty  and interactive classes made complex concepts easier to grasp , while regular assessments helped to track my progress."',
     },
     {
       img: emoji,

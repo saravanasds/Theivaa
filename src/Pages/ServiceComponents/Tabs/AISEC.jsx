@@ -218,7 +218,7 @@ const AISEC = () => {
               <img
                 src={IT2}
                 alt=""
-                className="lg:w-full lg:h-auto h-52 object-cover lg:mt-10 "
+                className="lg:w-full lg:h-auto h-52 object-cover lg:mt-10 lg:block hidden"
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="200"
@@ -242,9 +242,9 @@ const AISEC = () => {
                     <p className="lg:text-base text-sm text-gray-700 lg:mb-5  tracking-wider">We are honored to be authorized partners with some of the most prominent technology vendors. These licensing agreements enable us to offer premium software solutions, advanced tools, and comprehensive support, ensuring that our clients benefit from the latest innovations and industry-leading technologies.</p>
                   </div>
               </div>
-                <div className="shadow-lg bg-red p-5 border-darkred border-2 text-center pb-8 hover:scale-[1.1] transform transition-all">
-                <h2 className="lg:text-xl text-lg font-bold text-white mb-5 tracking-wider">AISECT UNIVERSITY</h2>
-                <button className=" lg:text-lg text-base text-white border-white border-2 hover:border-b-2 hover:border-b-primary"><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
+                <div className="shadow-lg p-5 border-darkred border-2 text-center pb-8 hover:scale-[1.1] transform transition-all rounded-lg">
+                <h2 className="lg:text-xl text-lg font-bold text-darkred white mb-5 tracking-wider">AISECT UNIVERSITY</h2>
+                <button className=" lg:text-lg text-base text-white bg-darkred shadow-lg border-2 hover:border-b-2 lg:px-10 px-5 py-2 rounded-lg font-semibold "><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
                 </div>
             </div>
 

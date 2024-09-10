@@ -21,7 +21,7 @@ const Shewin = () => {
             data-aos-duration="800"
             data-aos-delay="200"/>
           <div>
-          <p className="lg:w-full lg:h-auto lg:text-base text-sm text-gray-700 tracking-wider"data-aos="fade-left mb-5"
+          <p className="lg:w-full lg:h-auto lg:text-base text-sm text-gray-700 tracking-wider mb-5"data-aos="fade-left "
             data-aos-duration="800"
             data-aos-delay="200">
             SHEWIN is a platform for women to mentor each other, share

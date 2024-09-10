@@ -88,7 +88,7 @@ const Footer = () => {
             <h2 className="lg:text-2xl text-xl lg:mb-5 text-center tracking-wider mb-3 text-secondary">
               Social Media
             </h2>
-            <div className="grid grid-cols-2 px-16 ">
+            <div className="grid lg:grid-cols-2 grid-cols-4 gap-4 px-16 ">
               {data.map((icon1, index) => (
                 <div
                   key={index}

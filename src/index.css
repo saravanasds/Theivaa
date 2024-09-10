@@ -53,3 +53,24 @@
 
  
   
+  .custom-list {
+    list-style: none;
+    /* Adjust as needed */
+  }
+  
+  .custom-list li {
+    position: relative;
+    padding-left: 2em; /* Adjust as needed */
+    margin-bottom: 0.5em; /* Space between list items */
+    
+  }
+
+  .custom-list li::before {
+    content: "•"; /* Unicode bullet or any custom symbol */
+    position: absolute;
+    left: 0;
+    color: #c72408; /* Adjust color as needed */
+    font-size: large;
+  }
+
+

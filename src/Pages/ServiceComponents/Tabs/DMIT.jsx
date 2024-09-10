@@ -171,36 +171,30 @@ const DMIT = () => {
                 Fingerprints and Brain Lobes
               </b>
             </div>
-            <ul className=" list-disc mt-2 text-sm lg:text-base text-gray-700 ">
-              <li className="flex justify-start items-center gap-3 p-2 ">
-               
-                Brain Lobes can be analyzed depending on formation and amount of
-                ridge present in the fingerprints.
-              </li>
-              <li className="flex justify-start items-center gap-3 p-2">
-                Medical experts confirmed that each person’s fingerprints are
-                unique and no one has the same.
-              </li>
-              <li className="flex justify-start items-center gap-3 p-2">
-                Fingerprints demonstrate different types of characteristics,
-                even in identical twin babies.
-              </li>
-              <li className="flex justify-start items-center gap-3 p-2">
-                The syndication of fingerprints is recognized as a
-                representation of human brain cells.
-              </li>
-              <li className="flex justify-start items-center gap-3 p-2">
-                Fingerprint development depends on the proportion and
-                distribution of brain lobes.
-              </li>
-              <li className="flex justify-start items-center gap-3 p-2">
-                Children with learning difficulties will have different
-                fingerprints in comparison to talented children.
-              </li>
-            </ul>
+            <ul className="custom-list mt-2 text-sm lg:text-base text-gray-700 ">
+  <li className="flex justify-start items-center gap-3 p-2">
+    Brain lobes can be analyzed depending on formation and amount of ridge present in the fingerprints.
+  </li>
+  <li className="flex justify-start items-center gap-3 p-2">
+    Medical experts confirmed that each person’s fingerprints are unique and no one has the same.
+  </li>
+  <li className="flex justify-start items-center gap-3 p-2">
+    Fingerprints demonstrate different types of characteristics, even in identical twin babies.
+  </li>
+  <li className="flex justify-start items-center gap-3 p-2">
+    The syndication of fingerprints is recognized as a representation of human brain cells.
+  </li>
+  <li className="flex justify-start items-center gap-3 p-2">
+    Fingerprint development depends on the proportion and distribution of brain lobes.
+  </li>
+  <li className="flex justify-start items-center gap-3 p-2">
+    Children with learning difficulties will have different fingerprints in comparison to talented children.
+  </li>
+</ul>
+
           </p>
         </div>
-        <div></div>
+     
         <div
           className="flex justify-center items-center lg:py-10 py-5"
           data-aos="fade-up"
