@@ -13,7 +13,7 @@ import bg5 from "../assets/HomeImages/bg5.jpeg";
 
 const Services = () => {
   return (
-    <div className="w-full h-auto">
+    <div className="w-full h-auto ">
       <ServiceHero/>
        <div className="lg:p-10 p-5 flex flex-col justify-center items-center text-center">
         <h2 className="lg:w-3/4 text-center font-bold lg:text-3xl text-xl tracking-wider text-darkred pt-10 mb-5">OUR SERVICES</h2>

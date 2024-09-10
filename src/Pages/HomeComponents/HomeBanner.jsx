@@ -46,7 +46,7 @@ const HomeBanner = () => {
               expertise to keep our programs innovative and exceptional.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-5 ">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3  ">
               {banner.map((count, index) => (
                 <div
                   key={index}

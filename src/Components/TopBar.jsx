@@ -13,8 +13,8 @@ const TopBar = () => {
         </div>
 
         <div className="flex items-center gap-5 text-secondary">
-          <small className=" items-center gap-2 lg:block hidden">
-            <MdLocationPin className='lg:text-lg text-[15px]' />
+          <small className="items-center gap-2 lg:flex hidden">
+            <MdLocationPin className='lg:text-lg text-[15px] ' />
             <a href="#" className="text-white text-sm lg:text-base">Palani-624601</a>
           </small>
           <small className="flex items-center gap-2">

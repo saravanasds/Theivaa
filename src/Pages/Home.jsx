@@ -93,7 +93,7 @@ const Homecomponents = () => {
   ];
 
   return (
-    <div className="w-full h-auto overflow-x-auto ">
+    <div className="w-full h-auto overflow-x-auto">
       {/* // HomeHero Section Start  */}
 
       <HomeHero />
