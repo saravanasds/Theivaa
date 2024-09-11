@@ -13,20 +13,24 @@ const Footer = () => {
   const data = [
     {
       icon: <IoLogoWhatsapp />,
-      link: "",
+      link: "https://wa.me/919843070216?text=Hello%20Sir,%20I%20am%20interested%20in%20your%20service",
+      target:"_blank"
     },
 
     {
       icon: <RiInstagramFill />,
-      link: "",
+      link: "https://www.instagram.com/_shree_theivaa_academy?igsh=MWtiYjJiM3NtM2Mwcw==",
+      target:"_blank"
     },
     {
       icon: <FaFacebook />,
-      link: "",
+      link: "https://www.facebook.com/share/6wFB8QicjNrfhTpu/?mibextid=qi2Omg",
+      target:"_blank"
     },
     {
       icon: <PiPhoneCallFill />,
       link: "/contact",
+      target:"_self"
     },
   ];
   return (
@@ -42,11 +46,11 @@ const Footer = () => {
         {" "}
         <div className="w-full  bg-opacity-10 backdrop-blur-[1px] text-center pt-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 border-[1px] lg:px-5 py-5 md:p-10 lg:gap-10 text-white rounded-lg">
-          <div className="flex-shrink-0 font-sen tracking-wider px-10">
+          <div className="flex-shrink-0 font-sen tracking-wider px-10 ">
             <img
               src={sta}
               alt="Logo"
-              className="h-auto w-[250px] lg:h-20 lg:w-80  text-center bg-white p-2 hover:scale-[1.1] transform transition-all"
+              className="h-auto w-[250px] lg:h-20 lg:w-[500px]  text-center  p-2 hover:scale-[1.1] transform transition-all cursor-pointer "
             />
             <p className="py-4 text-sm lg:text-base text-center">
               Our mission is to provide top-quality education and support to
@@ -58,7 +62,7 @@ const Footer = () => {
               Get in Touch
             </h2>
             <div className=" lg:px-5 flex flex-col justify-center items-center">
-              <p className="flex gap-3 lg:text-base ">9876543110</p>
+              <p className="flex gap-3 lg:text-base ">98430 70216</p>
               <p className="flex gap-3 py-3 lg:text-base">Email@Example.com</p>
               <p className="flex gap-3 lg:text-base text-center">
                 134/3 sakthi kalyana mandabam, Palani-624601.
@@ -98,7 +102,7 @@ const Footer = () => {
                     className="lg:text-4xl text-lg lg:mb-2 font-bold tracking-wider text-white hover:text-red hover:bg-white transform transition-all duration-500 hover:-translate-y-1 hover:duration-300 rounded-lg p-[0.5]"
                     style={{ textShadow: "0px 2px 1px rgba(255,255,255,0.7)" }}
                   >
-                    <a href={icon1.link}>{icon1.icon}</a>
+                    <a href={icon1.link} target={icon1.target}>{icon1.icon}</a>
                   </h2>
                 </div>
               ))}
@@ -110,7 +114,7 @@ const Footer = () => {
           <p>
             Created by{" "}
             <span className="border-b-2 border-transparent hover:border-secondary lg:text-base text-xs">
-              <a href="https://sdstechzone.in/">SDS Technologies.</a>
+              <a href="https://sdstechzone.in/" target="_blank">SDS Technologies.</a>
             </span>
           </p>
         </div>
