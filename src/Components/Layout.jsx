@@ -4,6 +4,8 @@ import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import TopBar from './TopBar'
 
+import ScrollToTop from "../Components/ScrollToTop"
+
 const Layout = () => {
   return (
     <>
@@ -12,6 +14,7 @@ const Layout = () => {
      <Navbar/>
       <div className='flex-grow'>
       <Outlet/>
+      <ScrollToTop/>
       </div>
       <Footer/>
      </div>
