@@ -63,7 +63,7 @@ const Footer = () => {
             </h2>
             <div className=" lg:px-5 flex flex-col justify-center items-center">
               <p className="flex gap-3 lg:text-base ">98430 70216</p>
-              <p className="flex gap-3 py-3 lg:text-base">Email@Example.com</p>
+              <p className="flex gap-3 py-3 lg:text-base">technoschoolpalani@gmail.com</p>
               <p className="flex gap-3 lg:text-base text-center">
                 134/3 sakthi kalyana mandabam, Palani-624601.
               </p>
