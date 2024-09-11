@@ -50,7 +50,7 @@ function ScrollToTopButton() {
           onClick={scrollToTop}
         >
           <div className="relative w-12 h-12">
-            <FaArrowUp className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[rgb(255,127,38)] hover:text-gray-400 text-2xl hover:scale-125 transition-all duration-300" />
+            <FaArrowUp className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white hover:text-gray-400 text-2xl hover:scale-125 transition-all duration-300" />
             <svg
               className="absolute w-full h-full"
               viewBox="0 0 36 36"
@@ -61,7 +61,7 @@ function ScrollToTopButton() {
                 cx="18"
                 cy="18"
                 r="15.9155"
-                 stroke="rgb(255,127,38)"
+                 stroke="white"
                 strokeWidth="3"
                 strokeDasharray={`${scrollProgress}, 100`}
                 strokeLinecap="round"
