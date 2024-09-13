@@ -3,31 +3,11 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import bg4 from "../assets/HomeImages/bg4.jpeg";
 
-import React, { useState } from "react";
+import React from "react";
 
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission (e.g., send data to an API or email service)
-    console.log("Form submitted:", formData);
-  };
-
   return (
-    <div className="w-full mx-auto bg-center bg-white  rounded-lg ">
+    <div className="w-full mx-auto bg-center bg-white rounded-lg">
       <div
         className="w-full lg:h-[450px] h-[300px] bg-center bg-cover object-cover"
         style={{
@@ -39,7 +19,7 @@ const ContactPage = () => {
       >
         <div className="w-full lg:h-[450px] h-[300px] bg-primary bg-opacity-20 backdrop-blur-[1px] bg-center bg-cover object-cover text-center lg:pt-44 pt-32">
           <h2
-            className="lg:text-5xl text-3xl font-bold text-white tracking-wider "
+            className="lg:text-5xl text-3xl font-bold text-white tracking-wider"
             style={{ textShadow: "3px 3px 0px rgba(0,0,0,0.9)" }}
             data-aos="fade-up"
             data-aos-duration="800"
@@ -49,19 +29,20 @@ const ContactPage = () => {
           </h2>
         </div>
       </div>
+
       <div className="lg:py-20 py-5">
         <h1 className="lg:text-3xl text-xl font-bold mb-6 text-center text-primary tracking-wider">
           Contact Us
         </h1>
 
-        <div className="mb-8 flex flex-col justify-center items-center "data-aos="fade-up"
+        <div className="mb-8 flex flex-col justify-center items-center" data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300">
           <p className="lg:text-base text-sm px-5 mb-4 text-center text-primary tracking-wider">
             We'd love to hear from you! Here’s how you can reach us:
           </p>
-          <div className=" grid grid-cols-1 lg:grid-cols-3 lg:py-10 gap-16 lg:px-20 py-3">
-            <div className="flex flex-col justify-center items-center ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:py-10 gap-16 lg:px-20 py-3">
+            <div className="flex flex-col justify-center items-center">
               <MdLocationPin className="lg:text-5xl text-3xl text-secondary text-center mb-5" />
               <p className="text-primary text-sm font-medium text-center">
                 Location
@@ -70,16 +51,16 @@ const ContactPage = () => {
               </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center ">
-              <FaPhone className="lg:text-5xl text-3xl text-secondary  mb-5" />
+            <div className="flex flex-col justify-center items-center">
+              <FaPhone className="lg:text-5xl text-3xl text-secondary mb-5" />
               <p className="text-primary text-sm font-medium text-center tracking-wider">
                 Phone
                 <br />
-              9994500216
+                9994500216
               </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center ">
+            <div className="flex flex-col justify-center items-center">
               <IoMdMail className="lg:text-5xl text-3xl text-secondary text-center mb-5" />
               <p className="text-primary text-sm font-medium text-center tracking-wider">
                 Email
@@ -90,76 +71,28 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="max-w-4xl h-auto mx-auto shadow-md shadow-primary border-2 py-10 px-10 rounded-lg border-primary mb-5 "data-aos="fade-right"
+        {/* Google Form Embed */}
+        <div 
+          className="max-w-4xl mx-auto shadow-md shadow-primary border-2 lg:py-10 lg:px-10 py-5 px-5 rounded-lg border-primary mb-5"
+          data-aos="fade-right"
           data-aos-duration="800"
-          data-aos-delay="300">
-          <h2 className="lg:text-2xl  text-xl font-semibold mb-4 text-primary text-center tracking-wider">
+          data-aos-delay="300"
+          style={{ height: "100vh", overflow: "hidden" }} // Full height container with no scrolling
+        >
+          <h2 className="lg:text-2xl text-xl font-semibold mb-4 text-primary text-center tracking-wider">
             Send Us a Message
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label
-                htmlFor="name"
-                className="block text-gray-700 text-sm font-medium mb-2 tracking-wider"
-              >
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Your Name"
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-300 ease-in-out"
-                required
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-gray-700 text-sm font-medium mb-2 tracking-wider"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Your Email"
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-300 ease-in-out"
-                required
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="message"
-                className="block text-gray-700 text-sm font-medium mb-2 tracking-wider"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                rows="4"
-                placeholder="Your Message"
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-300 ease-in-out"
-                required
-              ></textarea>
-            </div>
-            <div>
-              <button
-                type="submit"
-                className="w-full bg-primary text-white py-3 rounded-md tracking-wider hover:bg-red focus:outline-none focus:ring-2 focus:ring-primary transition duration-300 ease-in-out"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
+          <div className="w-full h-full">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScNwRqQbyrLG29_3vE-2fa6LU6kLRF_BcwZk0rcxdZ-qLv2gw/viewform?embedded=true"
+              width="100%" // Full width on all screen sizes
+              height="100%" // Full height of the parent div
+              className="border-none rounded-lg"
+              style={{ height: "100%", overflow: "hidden" }} // Remove any scrollbars
+            >
+              Loading…
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
