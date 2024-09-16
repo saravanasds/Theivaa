@@ -10,39 +10,39 @@ const Homebenefits = () => {
   const Benefits = [
     {
       icon: <PiShareNetworkFill/>,
-      heading: "Creative Support",
+      heading: "Expert Educational Consultancy ",
       description:
-        "We transform brands, grow businesses, and tell brand and product stories in a most creative way.",
+        "We boost academic achievement with our specialized consultancy services for schools and individual learners.Tailored for schools and learners, our expertise boosts educational outcomes and institutional efficiency.",
     },
     {
       icon: <BsChatSquareQuoteFill />,
-      heading: "Creating Experiences",
+      heading: "Advanced IT & ITes Solutions",
       description:
-        "We cover a large range of creative platforms and digital projects with one purpose: to create experiences.",
+        "Stay ahead in the digital era with our cutting-edge IT services and solutions. We provide robust tech support, innovative software solutions, and strategic IT consulting to drive your business forward.",
     },
     {
       icon: <AiFillProduct />,
-      heading: "Product Consulting",
+      heading: "Unlock Your Potential with DMIT",
       description:
-        "We guide you through the pipelines that generate new products with higher potential and lower risk.",
+        "Discover your unique strengths and potential through our DMIT services. By analyzing fingerprint patterns, we provide personalized insights into your multiple intelligences and career suitability.",
     },
     {
       icon: <RiFireFill/>,
-      heading: "Business Boosting",
+      heading: "Empowering Women for Success",
       description:
-        "We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.",
+        "Engage with our initiatives dedicated to advancing women's rights and opportunities. Access our resources, training, and support to empower women to achieve personal and professional success.",
     },
     {
       icon: <FaLightbulb />,
-      heading: "Strategic Approach",
+      heading: "NEET and JEE Guidance",
       description:
-        "Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.",
+        "Prepare for the NEET & JEE with confidence using our comprehensive resources and expert guidance. We offer study materials, practice tests, and strategic insights to help you excel in the entrance exam.",
     },
     {
       icon: <RiBuilding2Fill />,
-      heading: "Logistic Consulting",
+      heading: "Talent Development Programs",
       description:
-        "We work buy side and sell side to give our clienrts hard hitting answers and focus hard on best opportunities.",
+        "Unlock and nurture young talents with our specialized programs designed to initiate, accelerate, and enhance their skills and potential.We offer cutting-edge resources and strategies.",
     },
   ];
 

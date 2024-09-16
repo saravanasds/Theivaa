@@ -87,7 +87,7 @@ const About = () => {
                 Volunteer
               </h3>
               <p className="lg:text-lg text-sm text-gray-700 tracking-wider">
-              Contribute your time and skills to help support our mission
+              Contribute your time and skills to help support our mission.
               </p>
             </div>
             <div className="px-3">

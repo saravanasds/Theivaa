@@ -31,7 +31,7 @@ const Homecomponents = () => {
       heading: "TIA",
       link:"/TIA",
       description:
-        "We focus on the initial stages of talent discovery and development",
+        "We focus on the initial stages of talent discovery and development.",
     },
     {
       icon: <PiStudent />,
