@@ -60,16 +60,7 @@ const IGEN = () => {
   return (
     <>
       <div className="w-full h-auto">
-        {/* <div
-          className="w-full lg:h-[400px]  bg-red-400"
-          style={{
-            // backgroundImage: `url(${fingerprint})`,
-            backgroundPositions: "center",
-            backgroundSize: "cover",
-          }}
-        >
-          <div className="w-full min-h-[400px] bg-[rgba(248,248,248)] bg-opacity-20 backdrop-blur-[5px] text-center pt-44"></div>
-        </div> */}
+       
         <div className="w-full h-auto flex flex-col justify-center items-center text-center lg:pb-20 pb-10">
           <div
             style={{
@@ -86,7 +77,7 @@ const IGEN = () => {
               data-aos-duration="800"
               data-aos-delay="200"
             >
-              <h2 className="lg:text-3xl text-xl font-semibold lg:mb-5 mb-3 text-primary tracking-wider">
+              <h2 className="lg:text-3xl text-xl font-bold lg:mb-5 mb-3 text-darkred tracking-wider">
                 IGEN
               </h2>
               <p className="lg:text-lg text-sm text-primary tracking-wider">
@@ -100,7 +91,7 @@ const IGEN = () => {
 
         <div className="lg:p-6 ">
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 px-5 py-5 lg:px-10 lg:py-10  bg-white"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 px-5 py-5 lg:px-10 lg:py-10 border-2 border-primary  bg-white"
             style={{
               backgroundColor: "rgba(246,246,246)",
               backgroundPositions: "center",
@@ -111,7 +102,7 @@ const IGEN = () => {
             {items.map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-5 rounded-lg shadow-md hover:scale-[1.1] duration-500 transform transition-all"
+                className="bg-white p-5 rounded-lg shadow-md hover:shadow-lg hover:scale-[1.1] duration-500 transform transition-all"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
@@ -124,7 +115,7 @@ const IGEN = () => {
                   data-aos-duration="800"
                   data-aos-delay="200"
                 />
-                <h2 className="lg:text-xl text-lg font-bold text-primary mb-2 tracking-wider">
+                <h2 className="lg:text-xl text-lg font-bold text-darkred mb-2 tracking-wider">
                   {item.title}
                 </h2>
                 <p className="text-gray-600 mb-4 tracking-wider lg:text-base text-sm">
@@ -136,7 +127,7 @@ const IGEN = () => {
           </div>
         </div>
             
-        <h2 className="text-center text-primary lg:text-2xl text-lg font-bold tracking-wider py-5 lg:py-5">
+        <h2 className="text-center text-darkred lg:text-3xl text-lg font-bold tracking-wider py-5 lg:py-10">
               Unlock Your Child’s Potential with Our Exciting Classes!
             </h2> 
         <div className="w-full h-auto flex lg:flex-row flex-col justify-center items-center  lg:pb-10">

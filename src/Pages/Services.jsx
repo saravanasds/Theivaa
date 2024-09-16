@@ -24,7 +24,7 @@ const Services = () => {
         <ServiceFlip
           frontContent="CONSULTANCY"
           backContent="EDUCATION CONSULTANCY"
-          backContent2="Higher Education Counciling & Counsultancy Services"
+          backContent2="Higher Education Councling & Counsultancy Services"
           backColor="bg-yellow-500"
           backgroundImage={consult1}
           backgroundImageback={paint}

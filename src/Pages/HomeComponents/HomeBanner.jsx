@@ -4,12 +4,14 @@ import { TiTick } from "react-icons/ti";
 
 const HomeBanner = () => {
   const banner = [
-    { heading: "TIA" },
-    { heading: "AISECT" },
-    { heading: "DMIT" },
-    { heading: "IGEN" },
+    
     { heading: "CWEECE" },
-    { heading: "JEE & NEET" },
+    { heading: "AISECT" },
+    { heading: "TIA" },
+    { heading: "IGEN" },
+    { heading: "JEE-NEET" },
+    { heading: "DMIT" },
+   
   ];
 
   //para: "Certified Teachers"
@@ -54,7 +56,7 @@ const HomeBanner = () => {
                 >
                   <h2
                     className="lg:text-3xl  text-base  font-bold tracking-wider text-darkred p-2"
-                    style={{ textShadow: "0px 2px 1px rgba(255,255,255,0.7)" }}
+                    style={{ textShadow: "2px 1px 2px rgba(255,255,255,0.7)" }}
                   >
                     {count.heading}
                   </h2>

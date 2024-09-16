@@ -60,7 +60,7 @@ const AboutOffers = () => {
                   {offers.icon}
                 </h1>
                
-                  <h1 className="lg:text-xl text-lg font-bold  tracking-wider text-primary">
+                  <h1 className="lg:text-xl text-lg font-bold  tracking-wider text-darkred">
                     {offers.heading}
                   </h1>
                   <h1 className="lg:text-base text-sm tracking-wider">

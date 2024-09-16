@@ -99,7 +99,7 @@ const Footer = () => {
                   className=" flex justify-center items-center text-white  py-2"
                 >
                   <h2
-                    className="lg:text-4xl text-lg lg:mb-2 font-bold tracking-wider text-white hover:text-red hover:bg-white transform transition-all duration-500 hover:-translate-y-1 hover:duration-300 rounded-lg p-[0.5]"
+                    className="lg:text-4xl text-lg lg:mb-2 font-bold tracking-wider text-white hover:text-darkred hover:bg-white transform transition-all duration-500 hover:-translate-y-1 hover:duration-300 rounded-lg p-[0.5]"
                     style={{ textShadow: "0px 2px 1px rgba(255,255,255,0.7)" }}
                   >
                     <a href={icon1.link} target={icon1.target}>{icon1.icon}</a>

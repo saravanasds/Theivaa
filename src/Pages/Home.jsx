@@ -20,40 +20,18 @@ import { FaGear } from "react-icons/fa6";
 const Homecomponents = () => {
   const Home = [
     {
-      icon: <IoMdFingerPrint />,
-      heading: "DMIT",
-      link:"/DMIT",
-      description:
-        "DMIT helps you understand your strengths and personality traits.",
-    },
-    {
-      icon: <PiChalkboardTeacher/>,
-      heading: "TIA",
-      link:"/TIA",
-      description:
-        "We focus on the initial stages of talent discovery and development.",
-    },
-    {
-      icon: <PiStudent />,
-      heading: "I Gen",
-      link:"/IGEN",
-      description:
-        "Know the market before taking any step, reduce risks before you go.",
-    },
-    {
-      icon: <GoBook />,
-      heading: "IT & ITes",
-      link:"/AISEC",
+      icon: <VscOrganization />,
+      heading: "CONSULTANCY",
+      link:"/Consultancy",
       description:
         "We play crucial role in supporting educational institutions.",
     },
-    // 
     {
-      icon: <CgGirl />,
-      heading: "CWEECE",
-      link:"/CWEECE",
+      icon: <GoBook />,
+      heading: "IT & ITES",
+      link:"/AISEC",
       description:
-        "Empowering and Protecting Women and Child care & development.",
+        "We play crucial role in supporting educational institutions.",
     },
     {
       icon: <FaGear />,
@@ -63,12 +41,34 @@ const Homecomponents = () => {
         "Coaching Centre with excellent medical and Supervision.",
     },
     {
-      icon: <VscOrganization />,
-      heading: "Consultancy",
-      link:"/Consultancy",
+      icon: <CgGirl />,
+      heading: "CWEECE",
+      link:"/CWEECE",
       description:
-        "We play crucial role in supporting educational institutions.",
-    }
+        "Empowering and Protecting Women and Child care & development.",
+    },
+    {
+      icon: <PiChalkboardTeacher/>,
+      heading: "TIA",
+      link:"/TIA",
+      description:
+        "We focus on the initial stages of talent discovery and development.",
+    }, 
+    {
+      icon: <PiStudent />,
+      heading: "IGEN",
+      link:"/IGEN",
+      description:
+        "Know the market before taking any step, reduce risks before you go.",
+    },
+    {
+      icon: <IoMdFingerPrint />,
+      heading: "DMIT",
+      link:"/DMIT",
+      description:
+        "DMIT helps you understand your strengths and personality traits.",
+    },
+  
   ];
 
   const Team = [
@@ -76,7 +76,7 @@ const Homecomponents = () => {
       // icon: <IoIosPeople className="text-[2rem]" />,
       heading: "Awesome Team",
       description:
-        "Before talking destination, we shine a spotlight across your organization to fully understand it.",
+        "Benefit from a dedicated team offering expert guidance and personalized support to enhance your learning experience.",
     },
     {
       // icon: <IoMdChatbubbles className="text-[2rem]" />,
@@ -88,7 +88,7 @@ const Homecomponents = () => {
       // icon: <FaBoltLightning className="text-[2rem]" />,
       heading: "Faster Performance",
       description:
-        "We develop a systematic well-ordered process of analysis, from concept through implementation..",
+        "Achieve your educational goals faster with our efficient processes and rapid support to boost performance and productivity.",
     },
   ];
 
@@ -111,7 +111,7 @@ const Homecomponents = () => {
       >
         <div className="text-center lg:py-[3rem] px-10 py-8 lg:px-0 lg:w-[50%]">
           <h2 className="lg:text-[2rem] text-xl font-bold tracking-[0.05em] mb-3 lg:mb-5 text-primary leading-normal">
-            Welcome to Shree Theivaa Academy
+            Welcome to <span className="text-darkred">Shree Theivaa Academy</span>
           </h2>
           <p className="lg:text-base text-sm tracking-[0.05em] text-center text-primary leading-normal">
             At Shree Theivaa Academy, we are dedicated to empowering learners of
@@ -167,7 +167,7 @@ const Homecomponents = () => {
       {/* // HomeTeam Section Start  */}
 
       <div
-        className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-20 px-5 py-8"
+        className="w-full h-auto bg-primary text-white font-semibold lg:text-3xl text-xl text-center tracking-wider lg:px-20  lg:py-16 px-5 py-8"
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="300"

@@ -24,7 +24,7 @@ const HomeHero = () => {
             className="lg:text-7xl text-3xl text-primary font-bold tracking-wider lg:mb-4 typing-effect"
             style={{ textShadow: "0px 2px 2px rgba(0,0,0,0.7)" }}
           >
-            Growth Partners
+            Growth <span className="text-darkred">Partners</span>
           </h2>
           <p className="lg:text-xl text-sm text-primary font-semibold tracking-wider lg:mb-8 typing-effect text-center">
             Gain access to specialized knowledge that can help accelerate

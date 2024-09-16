@@ -242,9 +242,9 @@ const AISEC = () => {
                     <p className="lg:text-base text-sm text-gray-700 lg:mb-5  tracking-wider">We are honored to be authorized partners with some of the most prominent technology vendors. These licensing agreements enable us to offer premium software solutions, advanced tools, and comprehensive support, ensuring that our clients benefit from the latest innovations and industry-leading technologies.</p>
                   </div>
               </div>
-                <div className="shadow-lg p-5 border-darkred border-2 text-center pb-8 hover:scale-[1.1] transform transition-all rounded-lg">
+                <div className="shadow-lg p-5 border-primary border-2 text-center pb-8 hover:scale-[1.1] transform transition-all rounded-lg">
                 <h2 className="lg:text-xl text-lg font-bold text-darkred white mb-5 tracking-wider">AISECT UNIVERSITY</h2>
-                <button className=" lg:text-lg text-base text-white bg-darkred shadow-lg border-2 hover:border-b-2 lg:px-10 px-5 py-2 rounded-lg font-semibold "><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
+                <button className=" lg:text-lg text-base text-primary shadow-lg border-2 border-secondary hover:border-b-2 lg:px-10 px-5 py-2 rounded-lg font-semibold "><a href="https://www.aisectuniversityjharkhand.ac.in/academics/cs-and-it">View More</a></button>
                 </div>
             </div>
 
@@ -308,7 +308,7 @@ const AISEC = () => {
                   </ul>
                 </div>
                 <div className="border-2 shadow-lg rounded-lg hover:shadow-xl">
-                  <img src={digi} alt="" className="w-full lg:h-80 h-36 rounded-t-lg object-cover"/>
+                  <img src={digi} alt="" className="w-full lg:h-80 h-36 rounded-t-lg object-cover p-5"/>
                   <div className="p-5 ">
                     <h2 className="lg:text-xl text-sm font-semibold  tracking-wider mb-5 text-gray-700 text-center">Get Your Marketing and (Information Technology-Enabled Service) Career to the Next Level With Us</h2>
                   </div>

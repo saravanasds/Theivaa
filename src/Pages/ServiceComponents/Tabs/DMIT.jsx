@@ -103,7 +103,7 @@ const DMIT = () => {
               </div>
               <div className="h-[40%] pb-5">
                 {" "}
-                <p className="lg:text-xl text-lg font-semibold text-primary mb-2">
+                <p className="lg:text-xl text-lg font-semibold text-darkred mb-2">
                   {d.h}
                 </p>
                 <p className="lg:text-lg text-sm   text-primary mb-5">{d.h1}</p>
@@ -144,7 +144,7 @@ const DMIT = () => {
             </p>
             <div className="lg:py-5 pt-5">
               <h2 className="lg:text-2xl text-lg font-bold text-primary mb-5 tracking-wider ">
-                Theory of Multiple Intelligence Test
+                Theory of Multiple <span className="text-darkred">Intelligence Test</span>
               </h2>
               <ul className="lg:text-base text-sm pl-5 text-gray-700 tracking-wider list-disc">
                 <li>Logical Intelligence (Reasoning Smart)</li>
