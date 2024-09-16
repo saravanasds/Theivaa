@@ -42,7 +42,7 @@ const Homecomponents = () => {
     },
     {
       icon: <GoBook />,
-      heading: "AISECT",
+      heading: "IT & ITes",
       link:"/AISEC",
       description:
         "We play crucial role in supporting educational institutions.",
