@@ -46,7 +46,7 @@ const HomeBanner = () => {
               expertise to keep our programs innovative and exceptional.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3  ">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
               {banner.map((count, index) => (
                 <div
                   key={index}
@@ -58,7 +58,7 @@ const HomeBanner = () => {
                   >
                     {count.heading}
                   </h2>
-                  {/* <h2 className="lg:text-xl text-sm tracking-wider font-semibold">{count.para}</h2> */}
+                
                 </div>
               ))}
             </div>

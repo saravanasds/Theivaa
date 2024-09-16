@@ -1,5 +1,5 @@
 import React from "react";
-import jeganathan from "../../assets/HomeImages/jeganathan.jpeg";
+import jeganathan2 from "../../assets/HomeImages/jeganathan2.jpeg";
 
 const AboutCEO = () => {
   return (
@@ -10,12 +10,12 @@ const AboutCEO = () => {
           data-aos-duration="800"
           data-aos-delay="300">
             <img
-              src={jeganathan}
+              src={jeganathan2}
               alt=""
               className="w-full lg:h-[500px] h-[350px] rounded-xl shadow-lg object-cover"
             />
           </div>
-          <div className="lg:w-[60%] w-full h-auto flex flex-col justify-center items-center lg:text-start text-center lg:items-start lg:px-10 pt-10 lg:pt-0"data-aos="fade-left"
+           <div className="lg:w-[60%] w-full h-auto flex flex-col justify-center items-center lg:text-start text-center lg:items-start lg:px-10 pt-10 lg:pt-0"data-aos="fade-left"
           data-aos-duration="800"
           data-aos-delay="300">
           <h3 className="lg:text-3xl text-xl font-bold text-darkred lg:mb-5 mb-3 uppercase">Mr.Jeganathan</h3>

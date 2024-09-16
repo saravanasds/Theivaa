@@ -45,7 +45,7 @@ const AboutOffers = () => {
       <div className="container mx-auto w-full h-auto lg:pb-20 lg:py-10"data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="300">
-        <h2 className="text-2xl lg:text-4xl font-bold text-primary text-center border-b-2 border-secondary lg:pb-5 py-8 ">What we Offer</h2>
+        <h2 className="text-2xl lg:text-4xl font-bold text-primary text-center border-b-2 border-secondary lg:pb-5 py-8 ">What We Offer</h2>
 
         <div className="flex flex-col lg:flex-row gap-5 order-2 lg:order-1 py-5">
           <div className="lg:w-[50%] w-full  h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10  lg:py-10"data-aos="fade-right"
