@@ -13,7 +13,7 @@ function JEENEET() {
       <section className="mb-10 "data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200">
-        <h2 className="lg:text-2xl text-xl font-bold mb-5 tracking-wider text-primary">Offline Classroom Courses  </h2>
+        {/* <h2 className="lg:text-2xl text-xl font-bold mb-5 tracking-wider text-primary">Offline Classroom Courses  </h2> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 "data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200">
