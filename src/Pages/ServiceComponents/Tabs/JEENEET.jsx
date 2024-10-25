@@ -20,34 +20,52 @@ function JEENEET() {
           <div className="p-6 border-pink-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-pink-500 text-white"data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200">
-            <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main</h2>
-            <p className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
-            <p className="lg:text-base text-sm tracking-wider">This course thoroughly prepares students for the JEE Main exam with comprehensive coverage of all topics, expert instruction, regular assessments, and personalized feedback. It includes practice with previous papers, interactive tools, and flexible, self-paced learning.</p>
+            {/* <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main</h2>
+            <p className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p> */}
+            <p className="lg:text-base text-sm tracking-wider">JEE, short for Joint Entrance Examination, is a national-level entrance examination conducted in 
+India for students who wish to get admitted in undergrad engineering or architecture programs at 
+the Indian Institutes of Technology (IITs), National Institutes of Technology (NITs), Indian 
+Institutes of Information Technology (IIITs), and other government-funded engineering colleges 
+in India. .</p>
           </div>
 
           <div className="p-6 border-orange-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-orange-500 text-white"data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="300">
-            <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main + Advanced</h2>
-            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
-            <p className="lg:text-base text-sm tracking-wider">An integrated course for JEE Main and Advanced offers comprehensive topic coverage, expert instruction, advanced problem-solving, tailored strategies, regular assessments, and flexible, self-paced learning.</p>
+            {/* <h2 className="lg:text-xl text-lg font-bold mb-2 ">JEE-Main + Advanced</h2>
+            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p> */}
+            <p className="lg:text-base text-sm tracking-wider">National Entrance Eligibility Test (UG) is the new qualifying entrance exam notified 
+under “Higher Medical Education Regulations, 1997 and BDS Course Regulations, 2007” by 
+the Council of India, as published in the Special Gazette of India on December 21, 2010 and 15 
+February 2012 and the Dental Council of India as published in the Special Gazette of India on
+May 31, 2012. The full form of JEE and NEET is Joint Entrance Examination and National 
+Entrance cum Eligibility Test respectively. </p>
           </div>
 
           <div className="p-6 border-blue-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-blue-500 text-white"data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200">
-            <h2 className="lg:text-xl text-lg font-bold mb-2 ">NEET-UG</h2>
-            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p>
+            {/* <h2 className="lg:text-xl text-lg font-bold mb-2 ">NEET-UG</h2>
+            <p  className="lg:text-lg text-sm mb-2 font-semibold ">Course Details :</p> */}
             <p className="lg:text-base text-smtracking-wider">
-            DDesigned for NEET-UG, this course covers all key subjects with expert instruction, practice questions, mock tests, and personalized feedback. It includes interactive resources and flexible, self-paced learning options.</p>
+            Whenever a student prepares for these exams either 
+JEE or NEET, then firstly he thinks “Which is harder JEE or NEET?” The Joint Entrance 
+Examination (JEE) and the National Eligibility and Entrance Test (NEET) are highly competitive 
+exams in India. JEE evaluates candidates for admission to engineering programs and is known 
+for its complex questions in math and science. </p>
           </div>
 
           <div className="p-6 border-gray-700 border-[1px] rounded-lg shadow-lg hover:shadow-2xl bg-gray-500 text-white"data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="300">
-            <h2 className="lg:text-xl text-lg font-bold mb-2v ">Pre-Foundation (8th to 10th)</h2>
-            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p>
-            <p className="lg:text-base text-sm tracking-wider">This course prepares younger students for JEE and NEET by establishing a solid foundation in science and mathematics. It focuses on essential concepts, provides interactive learning materials, and builds problem-solving skills to set students up for future success in these competitive exams.</p>
+            {/* <h2 className="lg:text-xl text-lg font-bold mb-2v ">Pre-Foundation (8th to 10th)</h2>
+            <p  className="lg:text-lg text-sm  mb-2 font-semibold ">Course Details :</p> */}
+            <p className="lg:text-base text-sm tracking-wider">On the other hand, NEET is for medical and 
+dental admissions and focuses on biology, chemistry and physics. Both exams are famous for 
+their difficulty, strict syllabus and fierce competition among candidates. Success requires 
+thorough preparation and a solid understanding of the basic concepts of these subjects in 
+both JEE and NEET.
+</p>
           </div>
         </div>
       </section>

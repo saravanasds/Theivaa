@@ -28,9 +28,13 @@ const mock = () => {
             data-aos-duration="800"
             data-aos-delay="200">
           <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MOCK</span>  hopes you're having a great day as you explore our website.
-            We're excited to make a positive impact on everyone who joins our
-            family today.
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-MOCK</span> Talent Initiators & Accelerators India introduces the Miracle Of Communication & Knowledge. 
+Our program offers a universal language, TIA Mock, enabling easy communication anywhere. 
+Inspired by the Babel story, we focus on direct, effective language learning to connect with 
+others seamlessly. Our R&D team has developed a state-of-the-art software that simplifies 
+learning languages like German, French, English, Mandarin, and Hindi. The program features 12 
+stages with 25 formulas each, totaling 300 formulas. It’s designed to accommodate learners of all 
+ages and paces, helping you confidently speak a new language in a short time.
           </p>
         </div>
         <div className="flex lg:flex-row flex-col gap-10">

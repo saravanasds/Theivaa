@@ -7,11 +7,11 @@ const TestHub = () => {
       title: "BENEFITS :",
       details: [
         "Free from fear when appearing in competitive exams",
-        " Security and confidentiality",
+        "  Security and confidentiality",
         " Time management",
-        " Be familiar with the structure of the exam",
+        "  Be familiar with the structure of the exam",
         " Can be easily accessed 24/7 over the open test period",
-        "comfort with the exams without fear",
+        " Comfort with the exams without fear",
       ],
     },
   ];
@@ -25,10 +25,9 @@ const TestHub = () => {
           data-aos-delay="200"
         >
           <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-TEST HUB</span>  offers extensive past exam papers for tests like JEE,
-            NEET, and Olympiads. Practice with unlimited tests, get instant
-            scores, and receive guidance from experts to improve your
-            performance and manage your time effectively.
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-TEST HUB</span>offers extensive past exam papers for tests like JEE, NEET, and Olympiads. 
+Practice with unlimited tests, get instant scores, and receive guidance from experts to improve 
+your performance and manage your time effectively.
           </p>
         </div>
         <div className="flex lg:flex-row flex-col justify-center gap-10">

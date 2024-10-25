@@ -7,15 +7,19 @@ const Consultancy = () => {
   const Consultancy = [
     {
       title: "Career Counseling:",
-      content: ` Explore career options and develop personalized plans that align with your skills and interests..`,
+      content: ` We provide comprehensive guidance to help students make informed decisions about their 
+educational and career paths. Explore career options and develop personalized plans that align 
+with your skills and interests.`,
     },
     {
       title: "University & Course Selection:",
-      content: ` Receive expert advice on choosing the right university and course that fits your academic and career goals.`,
+      content: `  Receive expert advice on choosing the right university and 
+course that fits your academic and career goals.`,
     },
     {
       title: "Application Assistance:",
-      content: `Get help with preparing and submitting successful applications, including personal statements and interviews.`,
+      content: `Get help with preparing and submitting successful applications, 
+including personal statements and interviews`,
     },
   ];
   const Consultancy2 = [

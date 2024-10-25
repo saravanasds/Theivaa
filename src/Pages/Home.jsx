@@ -73,19 +73,19 @@ const Homecomponents = () => {
 
   const Team = [
     {
-      // icon: <IoIosPeople className="text-[2rem]" />,
+      
       heading: "Awesome Team",
       description:
         "Benefit from a dedicated team offering expert guidance and personalized support to enhance your learning experience.",
     },
     {
-      // icon: <IoMdChatbubbles className="text-[2rem]" />,
+      
       heading: "Excellent Support",
       description:
         "If you face any trouble, you can always let our dedicated support team help you. They are ready for you 24/7.",
     },
     {
-      // icon: <FaBoltLightning className="text-[2rem]" />,
+     
       heading: "Faster Performance",
       description:
         "Achieve your educational goals faster with our efficient processes and rapid support to boost performance and productivity.",

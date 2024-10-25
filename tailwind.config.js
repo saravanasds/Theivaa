@@ -17,13 +17,10 @@ export default {
 
       darkred:"#E02454"
 
-      // primary: '#004445',
      
-      // secondary: '#f8b400',
       
     },
   },
   },
   plugins: [],
 }
-//#00bbf0

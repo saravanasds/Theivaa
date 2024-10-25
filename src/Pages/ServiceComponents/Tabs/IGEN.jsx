@@ -81,9 +81,9 @@ const IGEN = () => {
                 IGEN
               </h2>
               <p className="lg:text-lg text-sm text-primary tracking-wider">
-                IGEN-innovation is one such unique learning facility for school
-                and college students to understand the principles behind Abacus,
-                Vedic Maths, Rubik's cube, Phonics, robotics, and automation.
+              IGEN-innovation is one such unique learning facility for school and college students to 
+understand the principles behind Abacus, Vedic Maths, Rubik's cube, Phonics, robotics, and 
+automation.
               </p>
             </div>
           </div>
@@ -140,57 +140,78 @@ const IGEN = () => {
           >
             
             <div>
-              <h2 className="lg:text-xl text-base text-primary font-semibold tracking-wider mb-1">
-                Abacus Mastery:
+            <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
+                Vedic Maths Class:
               </h2>
               <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Enhance your mental math skills with our Abacus classes! Master
-                fast calculation techniques and boost your concentration and
-                problem-solving abilities through interactive learning.
-              </p>
-              <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
-                Rubik's Cube Challenges:
-              </h2>
-              <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Solve the Rubik's Cube with our expert-led classes! Learn
+                {/* Solve the Rubik's Cube with our expert-led classes! Learn
                 efficient solving techniques and advanced algorithms to enhance
-                your problem-solving skills and speedcubing abilities.
+                your problem-solving skills and speedcubing abilities. */}
+                Master solving techniques, advanced algorithms, and speedcubing skills to elevate your problem solving abilities.
+
+              </p>
+              <h2 className="lg:text-xl text-base text-primary font-semibold tracking-wider mb-1">
+                Abacus Maths Class:
+              </h2>
+
+              <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
+              Boost mental math skills with our Abacus classes! Learn techniques to perform rapid 
+calculations, enhance concentration, and improve problem-solving abilities.
+
               </p>
               <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
-                Phonics Fun:
+                Rubik Cube Class:
               </h2>
               <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Master reading fundamentals with our Phonics classes! Learn to
+                {/* Solve the Rubik's Cube with our expert-led classes! Learn
+                efficient solving techniques and advanced algorithms to enhance
+                your problem-solving skills and speedcubing abilities. */}
+                Master solving techniques, advanced algorithms, and speedcubing skills to elevate your problem solving abilities.
+
+              </p>
+              <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
+                Phonotics Class:
+              </h2>
+              <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
+                {/* Master reading fundamentals with our Phonics classes! Learn to
                 decode words and improve pronunciation through engaging,
                 hands-on activities. Build strong literacy skills and boost
-                reading confidence.
+                reading confidence. */}
+                Master pronunciation and sound skills with our Phonotic Classes, designed to boost your 
+                speaking and listening abilities.
               </p>
               <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
-                Robotics:
+                Robotics Class:
               </h2>
               <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Build and program robots using cutting-edge technology and
+                {/* Build and program robots using cutting-edge technology and
                 develop key skills in engineering. Enhance your problem-solving
                 and creative thinking abilities through hands-on projects and
-                real-world applications.
+                real-world applications. */}
+                Learn to design, build, and program robots, and develop essential skills in technology and 
+                engineering.
               </p>
               <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
-                Handwriting:
+                Handwriting Class:
               </h2>
               <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Transform your writing with our Handwriting classes! Enhance
+                {/* Transform your writing with our Handwriting classes! Enhance
                 your penmanship through personalized instruction and effective
                 techniques. Develop a more fluid, clear, and elegant writing
-                style that stands out.
+                style that stands out. */}
+                Discover techniques to enhance clarity, style, and legibility, and develop a 
+                more elegant and efficient writing style.
               </p>
               <h2 className="lg:text-xl text-lg text-primary font-semibold tracking-wider mb-1">
-                Painting:
+                Painting Class:
               </h2>
               <p className="lg:text-base text-sm text-gray-600 tracking-wider mb-3">
-                Explore diverse techniques and mediums, from watercolors to
+                {/* Explore diverse techniques and mediums, from watercolors to
                 acrylics, while developing your unique artistic style. Enjoy
                 hands-on guidance to refine your skills and create beautiful
-                artwork.
+                artwork. */}
+                Explore various techniques, from watercolor to acrylics, and develop your artistic skills in a 
+                supportive environment.
               </p>
             </div>
           </div>

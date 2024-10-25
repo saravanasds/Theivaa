@@ -13,13 +13,11 @@
     to { width: 100%; }
   }
   
-  /* @keyframes blink {
-    50% { border-color: transparent; }
-  } */
+  
   
   .typing-effect {
     overflow: hidden;
-    /* border-right: 4px solid #fff;  */
+  
     white-space: nowrap;
     animation: typing 2s steps(40, end);
   }
