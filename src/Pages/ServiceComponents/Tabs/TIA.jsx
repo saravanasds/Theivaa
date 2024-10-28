@@ -1,11 +1,11 @@
 import React from "react";
-import Brain from "../../ServiceComponents/Tabs/TiaDetails/Brain";
+// import Brain from "../../ServiceComponents/Tabs/TiaDetails/Brain";
 import TiaHead from "../Tabs/TiaDetails/TiaHead";
 import Edge from "../Tabs/TiaDetails/Edge";
 import Play from "../Tabs/TiaDetails/Play";
 import Mock from "./TiaDetails/Mock";
 import TestHub from "./TiaDetails/TestHub";
-import Media from "./TiaDetails/Media";
+// import Media from "./TiaDetails/Media";
 import Shewin from "./TiaDetails/Shewin";
 
 
@@ -19,9 +19,9 @@ const TIA = () => {
       <TiaHead/>
       </div>
       
-      <div id="brain">
+      {/* <div id="brain">
         <Brain/>
-      </div>
+      </div> */}
       <div id="edge">
         <Edge/>
       </div>
@@ -36,10 +36,10 @@ const TIA = () => {
         {" "}
         <TestHub/>
       </div>
-      <div id="media">
+      {/* <div id="media">
         {" "}
         <Media/>
-      </div>
+      </div> */}
       <div id="shewin">
         {" "}
         <Shewin/>

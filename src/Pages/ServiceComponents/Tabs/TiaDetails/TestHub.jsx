@@ -25,7 +25,7 @@ const TestHub = () => {
           data-aos-delay="200"
         >
           <p className="lg:w-full px-5 h-auto text-center lg:text-lg text-sm text-primary tracking-wider">
-          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-TEST HUB</span>offers extensive past exam papers for tests like JEE, NEET, and Olympiads. 
+          <span className="text-darkred font-semibold lg:text-lg tracking-wider">TIA-TEST HUB</span>offers extensive past exam papers for tests like JEE, NEET,TNPSC (All groups), UPSC, SSC, Banking and Olympiads. 
 Practice with unlimited tests, get instant scores, and receive guidance from experts to improve 
 your performance and manage your time effectively.
           </p>

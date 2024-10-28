@@ -161,8 +161,9 @@ const AISEC = () => {
           data-aos-duration="800"
           data-aos-delay="200"
         >
-          <h2 className="lg:w-3/4 px-5 h-auto text-center lg:text-2xl text-sm font-semibold text-primary tracking-wider mb-5">
-            Empowering Your Business with Cutting-Edge Technology
+           <span className="text-lg lg:text-3xl text-darkred font-semibold tracking-wider"> Skill Knowledge Provider at Palani </span>
+          <h2 className="lg:w-3/4 px-5 h-auto text-center lg:text-2xl text-sm font-semibold text-primary tracking-wider py-5">
+        Empowering Your Learning Journey with Cutting-Edge Technology
           </h2>
           <p className="lg:w-3/4 lg:text-base text-sm text-gray-700 tracking-wider text-center">
             To create the best computer graduates to work efficiently and
